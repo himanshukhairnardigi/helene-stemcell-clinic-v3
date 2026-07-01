@@ -34,7 +34,6 @@ export function LocationSection() {
                   <p key={line}>{line}</p>
                 ))}
               </address>
-              <p className="mt-4 text-xs italic text-muted-foreground">{locationSection.addressNote}</p>
             </div>
           </Reveal>
         </div>
