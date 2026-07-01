@@ -183,32 +183,31 @@ export const specialistsSection = {
     "Treatment at Helene Clinic is led and supervised by physicians across regenerative medicine, internal medicine, and orthopedic care — every case is reviewed by a qualified doctor before any treatment plan is proposed.",
   members: [
     {
-      name: "Dr. Takaaki Matsuoka",
-      role: "Chief Director, HELENE GROUP",
-      specialty: "Regenerative Medicine & Anesthesiology",
+      name: "Nana Kobayashi",
+      role: "Clinical Lead",
+      description:
+        "Provides senior clinical leadership in regenerative medicine within Japan's regulated medical system.",
+      credentials: "Dr. Kobayashi, MD",
       photo: null,
     },
     {
-      name: "Dr. Toichi Tonozaki",
-      role: "Physician",
-      specialty: "Regenerative & Aesthetic Medicine",
+      name: "Takaaki Matsuoka",
+      role: "Representative of HELENE GROUP",
+      description:
+        "Leads regenerative medicine protocols and clinical education. Involved in treatment strategy development and medical oversight.",
+      credentials: "Dr. Matsuoka, MBBS, DABRM",
       photo: null,
     },
     {
-      name: "Dr. Nana Kobayashi",
-      role: "Director, HELENE CLINIC",
-      specialty: "Regenerative Gastroenterology & Internal Medicine",
-      photo: null,
-    },
-    {
-      name: "Patient Coordinator",
-      role: "International Patient Support",
-      specialty: "Case Review & Scheduling",
+      name: "Takaaki Itohara",
+      role: "Cardiovascular & Surgical Specialist in HELENE",
+      description:
+        "Provides medical assessment and risk evaluation, particularly for patients with cardiovascular or systemic conditions.",
+      credentials: "Dr. Itohara, MD",
       photo: null,
     },
   ],
-  note:
-    "Names and titles sourced from public listings; please confirm with the clinic before publishing.",
+  note: "Specialist photos are pending upload from the clinic's reference assets.",
 };
 
 export const locationSection = {
