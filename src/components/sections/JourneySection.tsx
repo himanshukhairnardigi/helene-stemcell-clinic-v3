@@ -5,7 +5,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function JourneySection() {
   return (
-    <section className="bg-background py-16 sm:py-24" id="journey">
+    <section className="bg-secondary/50 py-16 sm:py-24" id="journey">
       <div className="section-container">
         <SectionHeading eyebrow={journeySection.eyebrow} heading={journeySection.heading} />
 

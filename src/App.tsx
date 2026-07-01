@@ -4,7 +4,6 @@ import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
 import { Hero } from "@/components/sections/Hero";
 import { StruggleSection } from "@/components/sections/StruggleSection";
 import { DifferenceSection } from "@/components/sections/DifferenceSection";
-import { CertificationsSection } from "@/components/sections/CertificationsSection";
 import { JapanSection } from "@/components/sections/JapanSection";
 import { WhyHeleneSection } from "@/components/sections/WhyHeleneSection";
 import { SpecialistsSection } from "@/components/sections/SpecialistsSection";
@@ -24,7 +23,6 @@ function App() {
         <Hero />
         <StruggleSection />
         <DifferenceSection />
-        <CertificationsSection />
         <JapanSection />
         <WhyHeleneSection />
         <SpecialistsSection />

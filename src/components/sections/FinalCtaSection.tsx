@@ -5,7 +5,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function FinalCtaSection() {
   return (
-    <section className="bg-cta-green py-16 sm:py-20">
+    <section className="bg-primary py-16 sm:py-20">
       <div className="section-container grid grid-cols-1 gap-12 lg:grid-cols-[1.3fr_1fr] lg:items-center">
         <Reveal className="text-center lg:text-left">
           <h2 className="font-heading text-3xl font-bold leading-tight text-white sm:text-4xl">{finalCta.heading}</h2>

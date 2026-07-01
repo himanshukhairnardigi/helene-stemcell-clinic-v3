@@ -57,7 +57,6 @@ export default {
           foreground: "hsl(var(--whatsapp-foreground))",
         },
         "teal-dark": "hsl(var(--teal-dark))",
-        "cta-green": "hsl(var(--cta-green))",
         "footer-dark": "hsl(var(--footer-dark))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
