@@ -1,3 +1,7 @@
+import drKobayashi from "@/assets/dr-kobayashi.jpg";
+import drMatsuoka from "@/assets/dr-matsuoka.jpg";
+import drItohara from "@/assets/dr-itohara.jpg";
+
 export const WHATSAPP_NUMBER = "819012345678";
 
 export function whatsappLink(message: string) {
@@ -183,24 +187,30 @@ export const specialistsSection = {
     "Treatment at Helene Clinic is led and supervised by physicians across regenerative medicine, internal medicine, and orthopedic care — every case is reviewed by a qualified doctor before any treatment plan is proposed.",
   members: [
     {
-      role: "Lead Physician",
-      specialty: "Regenerative Medicine & Anesthesiology",
+      name: "Nana Kobayashi",
+      role: "Clinical Lead",
+      description:
+        "Provides senior clinical leadership in regenerative medicine within Japan's regulated medical system.",
+      credentials: "Dr. Kobayashi, MD",
+      photo: drKobayashi,
     },
     {
-      role: "Physician",
-      specialty: "Internal Medicine & Endocrinology (Diabetes Care)",
+      name: "Takaaki Matsuoka",
+      role: "Representative of HELENE GROUP",
+      description:
+        "Leads regenerative medicine protocols and clinical education. Involved in treatment strategy development and medical oversight.",
+      credentials: "Dr. Matsuoka, MBBS, DABRM",
+      photo: drMatsuoka,
     },
     {
-      role: "Physician",
-      specialty: "Orthopedic & Regenerative Medicine (Osteoarthritis Care)",
-    },
-    {
-      role: "Patient Coordinator",
-      specialty: "International Patient Support",
+      name: "Takaaki Itohara",
+      role: "Cardiovascular & Surgical Specialist in HELENE",
+      description:
+        "Provides medical assessment and risk evaluation, particularly for patients with cardiovascular or systemic conditions.",
+      credentials: "Dr. Itohara, MD",
+      photo: drItohara,
     },
   ],
-  note:
-    "Specialist names, credentials, and photos are provided by the clinic and confirmed prior to publishing.",
 };
 
 export const locationSection = {
