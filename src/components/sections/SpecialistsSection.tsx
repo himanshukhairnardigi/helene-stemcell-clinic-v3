@@ -11,12 +11,24 @@ export function SpecialistsSection() {
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {specialistsSection.members.map((member, i) => (
-            <Reveal key={member.specialty} delay={i * 0.08}>
+            <Reveal key={member.name} delay={i * 0.08}>
               <div className="group card-surface h-full text-center">
-                <span className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-primary transition-transform duration-300 group-hover:scale-110">
-                  <HiOutlineUser className="h-9 w-9" aria-hidden="true" />
-                </span>
-                <h3 className="text-base font-semibold text-teal-dark">{member.role}</h3>
+                {member.photo ? (
+                  <img
+                    src={member.photo}
+                    alt={member.name}
+                    className="mx-auto mb-4 h-24 w-24 rounded-full object-cover"
+                    loading="lazy"
+                    width={96}
+                    height={96}
+                  />
+                ) : (
+                  <span className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-primary transition-transform duration-300 group-hover:scale-110">
+                    <HiOutlineUser className="h-9 w-9" aria-hidden="true" />
+                  </span>
+                )}
+                <h3 className="text-base font-semibold text-teal-dark">{member.name}</h3>
+                <p className="mt-1 text-sm font-medium text-primary">{member.role}</p>
                 <p className="mt-1.5 text-sm leading-snug text-muted-foreground">{member.specialty}</p>
               </div>
             </Reveal>
