@@ -5,7 +5,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/
 
 export function FaqSection() {
   return (
-    <section className="bg-secondary/50 py-16 sm:py-24" id="faq">
+    <section className="bg-background py-16 sm:py-24" id="faq">
       <div className="section-container">
         <SectionHeading eyebrow={faqSection.eyebrow} heading={faqSection.heading} />
 

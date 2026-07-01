@@ -7,7 +7,7 @@ export function LocationSection() {
   const mapSrc = `https://maps.google.com/maps?q=${encodeURIComponent(locationSection.mapQuery)}&z=15&output=embed`;
 
   return (
-    <section className="bg-background py-16 sm:py-24" id="location">
+    <section className="bg-secondary/50 py-16 sm:py-24" id="location">
       <div className="section-container">
         <SectionHeading eyebrow={locationSection.eyebrow} heading={locationSection.heading} intro={locationSection.intro} />
 

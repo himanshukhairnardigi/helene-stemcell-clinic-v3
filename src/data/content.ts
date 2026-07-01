@@ -16,7 +16,6 @@ export const nav = {
     { label: "About", href: "#about" },
     { label: "Specialists", href: "#specialists" },
     { label: "Steps", href: "#journey" },
-    { label: "Certifications", href: "#certifications" },
   ],
   suitabilityLabel: "See if you are a suitable candidate",
   suitabilityHref: "#faq",
@@ -227,22 +226,6 @@ export const locationSection = {
     "Treatment takes place at Helene Clinic in the Omotesando district of Tokyo, Japan — easily reached from Omotesando Station.",
   addressLines: ["Helene Clinic Omotesando", contact.postalCode, ...contact.addressLines, "Tokyo, Japan"],
   mapQuery: "5-9-15 Minami-Aoyama, Minato-ku, Tokyo, Japan",
-};
-
-export const certificationsSection = {
-  heading: "Certified, Regulated & Trusted",
-  slides: [
-    { title: "License of Acceptance for Neurodegenerative Disorders", kind: "license" },
-    { title: "License of Acceptance for Elderly Skin Changes", kind: "license" },
-    { title: "European Quality Research Association ESQR", kind: "award" },
-    { title: "American Board of Regenerative Medicine Partner Facility", kind: "plaque" },
-  ],
-  checklist: [
-    "ISO 9001–certified quality management system supporting clinical operations and cell processing",
-    "Licenses reviewed and approved under Japan's national regulatory framework",
-    "Strict hygiene, quality control, and documentation protocols at every stage of care",
-    "Dedicated international patient support team for clear communication before, during, and after treatment",
-  ],
 };
 
 export const videoSection = {

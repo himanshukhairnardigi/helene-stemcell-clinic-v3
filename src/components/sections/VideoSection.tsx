@@ -8,7 +8,7 @@ export function VideoSection() {
   const [playing, setPlaying] = useState(false);
 
   return (
-    <section className="bg-background py-16 sm:py-24">
+    <section className="bg-secondary/50 py-16 sm:py-24">
       <div className="section-container">
         <SectionHeading eyebrow={videoSection.eyebrow} heading={videoSection.heading} intro={videoSection.intro} />
 
