@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function DifferenceSection() {
   return (
-    <section className="bg-secondary/50 py-16 sm:py-24" id="specialists">
+    <section className="bg-secondary/50 py-16 sm:py-24" id="science">
       <div className="section-container">
         <SectionHeading eyebrow={differenceSection.eyebrow} heading={differenceSection.heading} intro={differenceSection.intro} />
 

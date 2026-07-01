@@ -10,6 +10,12 @@ import {
   HiOutlineHeart,
   HiOutlineGlobeAlt,
   HiOutlineClipboardList,
+  HiOutlineChatAlt2,
+  HiOutlineDocumentSearch,
+  HiOutlineClipboardCheck as HiOutlineAssessment,
+  HiOutlineCalendar,
+  HiOutlinePaperAirplane,
+  HiOutlineAnnotation,
 } from "react-icons/hi";
 
 const iconMap: Record<string, IconType> = {
@@ -23,6 +29,12 @@ const iconMap: Record<string, IconType> = {
   protocols: HiOutlineClipboardList,
   support: HiOutlineGlobeAlt,
   safety: HiOutlineHeart,
+  share: HiOutlineChatAlt2,
+  review: HiOutlineDocumentSearch,
+  assessment: HiOutlineAssessment,
+  planning: HiOutlineCalendar,
+  travel: HiOutlinePaperAirplane,
+  followup: HiOutlineAnnotation,
 };
 
 interface CardIconProps {

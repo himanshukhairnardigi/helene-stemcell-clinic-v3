@@ -176,6 +176,72 @@ export const researchSection = {
   ctaLabel: "Discuss Whether You May Be a Suitable Candidate",
 };
 
+export const specialistsSection = {
+  eyebrow: "Our Team",
+  heading: "Our Regenerative Medicine Specialists",
+  intro:
+    "Treatment at Helene Clinic is led and supervised by physicians across regenerative medicine, internal medicine, and orthopedic care — every case is reviewed by a qualified doctor before any treatment plan is proposed.",
+  members: [
+    {
+      role: "Lead Physician",
+      specialty: "Regenerative Medicine & Anesthesiology",
+    },
+    {
+      role: "Physician",
+      specialty: "Internal Medicine & Endocrinology (Diabetes Care)",
+    },
+    {
+      role: "Physician",
+      specialty: "Orthopedic & Regenerative Medicine (Osteoarthritis Care)",
+    },
+    {
+      role: "Patient Coordinator",
+      specialty: "International Patient Support",
+    },
+  ],
+  note:
+    "Specialist names, credentials, and photos are provided by the clinic and confirmed prior to publishing.",
+};
+
+export const locationSection = {
+  eyebrow: "Visit Us",
+  heading: "Our Clinic Location",
+  intro:
+    "Treatment takes place at Helene Clinic in the Omotesando district of Tokyo, Japan — easily reached from Omotesando Station.",
+  addressLines: ["Helene Clinic Omotesando", "Aoyama OHMOTO Building, 3F", "5-9-15 Minami-Aoyama, Minato-ku", "Tokyo, Japan"],
+  addressNote: "Address to be confirmed with the clinic before publishing.",
+  mapQuery: "5-9-15 Minami-Aoyama, Minato-ku, Tokyo, Japan",
+};
+
+export const certificationsSection = {
+  eyebrow: "Certified, Regulated & Trusted",
+  heading: "Certified, Regulated & Trusted",
+  intro:
+    "Regenerative medicine in Japan is governed by a dedicated national law, not left to individual clinics to self-regulate.",
+  items: [
+    {
+      title: "Act on the Safety of Regenerative Medicine",
+      description:
+        "Treatment plans are governed under Japan's national regenerative medicine law, administered by the Ministry of Health, Labour and Welfare (MHLW).",
+    },
+    {
+      title: "Certified Committee Review",
+      description:
+        "Treatment protocols are reviewed by an MHLW-certified Regenerative Medicine Committee before they can be offered to patients.",
+    },
+    {
+      title: "GMP-Compliant Cell Processing",
+      description:
+        "Cell culturing and processing take place in facilities meeting GMP-equivalent quality and safety standards.",
+    },
+    {
+      title: "Risk-Based Classification",
+      description:
+        "Every treatment is classified by risk level (Class I–III) under the law, determining the level of oversight required.",
+    },
+  ],
+};
+
 export const videoSection = {
   eyebrow: "Inside the Clinic",
   heading: "See How It Actually Works, Inside Our Tokyo Clinic",
@@ -229,12 +295,12 @@ export const journeySection = {
   eyebrow: "How It Works",
   heading: "Your Journey with Helene Clinic",
   steps: [
-    { title: "Share your medical reports on WhatsApp" },
-    { title: "Initial review by medical team" },
-    { title: "Suitability assessment" },
-    { title: "Treatment discussion and planning" },
-    { title: "Travel to Japan if appropriate" },
-    { title: "Post-treatment follow-up guidance" },
+    { icon: "share", title: "Share your medical reports on WhatsApp" },
+    { icon: "review", title: "Initial review by medical team" },
+    { icon: "assessment", title: "Suitability assessment" },
+    { icon: "planning", title: "Treatment discussion and planning" },
+    { icon: "travel", title: "Travel to Japan if appropriate" },
+    { icon: "followup", title: "Post-treatment follow-up guidance" },
   ],
 };
 
@@ -277,6 +343,27 @@ export const finalCta = {
 };
 
 export const footer = {
+  tagline: "Japan-regulated regenerative medicine for international patients.",
+  columns: [
+    {
+      heading: "Explore",
+      links: nav.links,
+    },
+    {
+      heading: "Conditions",
+      links: [
+        { label: "Type 2 Diabetes", href: "#about" },
+        { label: "Osteoarthritis", href: "#about" },
+        { label: "Research", href: "#certifications" },
+        { label: "FAQs", href: "#faq" },
+      ],
+    },
+  ],
+  contact: {
+    heading: "Contact",
+    whatsappLabel: "Chat on WhatsApp",
+    address: locationSection.addressLines,
+  },
   disclaimer:
     "Stem cell therapy is not appropriate for everyone. Individual outcomes vary and no medical treatment can guarantee specific results. Information on this page is provided for educational purposes and does not constitute medical advice. Please consult our physicians to assess your suitability for treatment.",
   copyright: `© ${new Date().getFullYear()} Helene Clinic Omotesando. All rights reserved.`,

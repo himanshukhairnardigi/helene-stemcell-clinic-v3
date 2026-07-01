@@ -80,6 +80,7 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="relative mx-auto w-full max-w-md"
         >
+          <div className="absolute -inset-6 -z-10 rounded-[2.5rem] bg-primary/10 blur-2xl" aria-hidden="true" />
           <div className="overflow-hidden rounded-3xl shadow-[0_24px_60px_-20px_rgba(15,45,40,0.35)]">
             <img
               src={heroImage}
