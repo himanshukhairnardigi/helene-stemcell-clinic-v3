@@ -32,11 +32,13 @@ export function Header() {
       )}
     >
       <div className="section-container flex items-center justify-between gap-4 py-4">
-        <a href="#home" className="flex items-center gap-2.5">
-          <img src={crestLogo} alt="Helene Clinic crest" className="h-10 w-10 shrink-0" width={40} height={40} />
+        <a href="#home" className="flex items-center gap-3">
+          <img src={crestLogo} alt="Helene Clinic crest" className="h-11 w-11 shrink-0" width={44} height={44} />
           <span className="flex flex-col leading-tight">
-            <span className="font-heading text-2xl font-extrabold tracking-tight text-primary">{nav.logo}</span>
-            <span className="hidden text-xs font-medium text-muted-foreground sm:inline">{nav.logoSubtitle}</span>
+            <span className="font-heading text-2xl font-bold tracking-tight text-teal-dark">{nav.logo}</span>
+            <span className="hidden text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground sm:inline">
+              {nav.logoSubtitle}
+            </span>
           </span>
         </a>
 
