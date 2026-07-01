@@ -93,7 +93,7 @@ export function CertificationsSection() {
         <Reveal delay={0.15} className="mx-auto mt-10 max-w-2xl space-y-3">
           {certificationsSection.checklist.map((item) => (
             <div key={item} className="flex items-start gap-3">
-              <HiCheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-primary" aria-hidden="true" />
+              <HiCheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-whatsapp" aria-hidden="true" />
               <p className="text-[15px] leading-relaxed text-foreground/80">{item}</p>
             </div>
           ))}

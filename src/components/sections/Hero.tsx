@@ -104,7 +104,7 @@ export function Hero() {
           {hero.trustBadges.map((badge, i) => (
             <Reveal key={badge} delay={i * 0.1}>
               <div className="flex h-full items-start gap-3 rounded-xl border border-border bg-card/80 p-4 shadow-sm">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-whatsapp text-xs font-bold text-whatsapp-foreground">
                   ✓
                 </span>
                 <span className="text-sm font-medium leading-snug text-foreground/85">{badge}</span>
