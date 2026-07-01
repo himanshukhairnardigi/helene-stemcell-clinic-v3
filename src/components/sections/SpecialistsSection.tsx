@@ -35,10 +35,6 @@ export function SpecialistsSection() {
             </Reveal>
           ))}
         </div>
-
-        <Reveal delay={0.2} className="mx-auto mt-8 max-w-2xl text-center">
-          <p className="text-xs italic text-muted-foreground">{specialistsSection.note}</p>
-        </Reveal>
       </div>
     </section>
   );

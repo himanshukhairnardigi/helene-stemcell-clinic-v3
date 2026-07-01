@@ -1,3 +1,7 @@
+import drKobayashi from "@/assets/dr-kobayashi.jpg";
+import drMatsuoka from "@/assets/dr-matsuoka.jpg";
+import drItohara from "@/assets/dr-itohara.jpg";
+
 export const WHATSAPP_NUMBER = "819012345678";
 
 export function whatsappLink(message: string) {
@@ -188,7 +192,7 @@ export const specialistsSection = {
       description:
         "Provides senior clinical leadership in regenerative medicine within Japan's regulated medical system.",
       credentials: "Dr. Kobayashi, MD",
-      photo: null,
+      photo: drKobayashi,
     },
     {
       name: "Takaaki Matsuoka",
@@ -196,7 +200,7 @@ export const specialistsSection = {
       description:
         "Leads regenerative medicine protocols and clinical education. Involved in treatment strategy development and medical oversight.",
       credentials: "Dr. Matsuoka, MBBS, DABRM",
-      photo: null,
+      photo: drMatsuoka,
     },
     {
       name: "Takaaki Itohara",
@@ -204,10 +208,9 @@ export const specialistsSection = {
       description:
         "Provides medical assessment and risk evaluation, particularly for patients with cardiovascular or systemic conditions.",
       credentials: "Dr. Itohara, MD",
-      photo: null,
+      photo: drItohara,
     },
   ],
-  note: "Specialist photos are pending upload from the clinic's reference assets.",
 };
 
 export const locationSection = {
