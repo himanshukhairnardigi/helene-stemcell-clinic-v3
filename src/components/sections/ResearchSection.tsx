@@ -1,3 +1,4 @@
+import { HiOutlineExternalLink } from "react-icons/hi";
 import { researchSection } from "@/data/content";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
@@ -9,6 +10,7 @@ function StudyCard({
   stats,
   footnote,
   footnote2,
+  reportUrl,
   delay,
 }: {
   title: string;
@@ -16,11 +18,12 @@ function StudyCard({
   stats: { value: string; label: string }[];
   footnote: string;
   footnote2?: string;
+  reportUrl: string;
   delay: number;
 }) {
   return (
     <Reveal delay={delay}>
-      <div className="card-surface h-full text-left">
+      <div className="card-surface flex h-full flex-col text-left">
         <h3 className="text-xl font-bold text-teal-dark">{title}</h3>
         <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">{intro}</p>
 
@@ -35,6 +38,16 @@ function StudyCard({
 
         {footnote2 && <p className="mt-5 text-[15px] font-medium text-foreground/80">{footnote2}</p>}
         <p className="mt-3 text-sm italic leading-relaxed text-muted-foreground">{footnote}</p>
+
+        <a
+          href={reportUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-primary-outline mt-6 self-start px-5 py-2.5 text-sm"
+        >
+          View Report
+          <HiOutlineExternalLink className="h-4 w-4" aria-hidden="true" />
+        </a>
       </div>
     </Reveal>
   );
