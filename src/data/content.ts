@@ -227,11 +227,15 @@ export const contact = {
 
 export const locationSection = {
   eyebrow: "Visit Us",
-  heading: "Our Clinic Location",
+  heading: "Clinic Location — Tokyo, Japan",
   intro:
-    "Treatment takes place at Helene Clinic in the Omotesando district of Tokyo, Japan — easily reached from Omotesando Station.",
+    "HELENE Clinic is located in Tokyo, approximately an 8–9 hour flight, with dedicated support for international patients throughout consultation, treatment, and follow-up.",
   addressLines: ["Helene Clinic Omotesando", contact.postalCode, ...contact.addressLines, "Tokyo, Japan"],
   mapQuery: "5-9-15 Minami-Aoyama, Minato-ku, Tokyo, Japan",
+  fromCity: "Mumbai, India",
+  toCity: "Tokyo, Japan",
+  caption: "Central Tokyo location with convenient international access",
+  ctaLabel: "Start Your Medical Review",
 };
 
 export const videoSection = {
