@@ -4,7 +4,7 @@ import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import { nav } from "@/data/content";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { cn } from "@/lib/utils";
-import crestLogo from "@/assets/helene-crest.png";
+import logoFull from "@/assets/helene-logo-full.png";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -32,14 +32,14 @@ export function Header() {
       )}
     >
       <div className="section-container flex items-center justify-between gap-4 py-4">
-        <a href="#home" className="flex items-center gap-3">
-          <img src={crestLogo} alt="Helene Clinic crest" className="h-11 w-11 shrink-0" width={44} height={44} />
-          <span className="flex flex-col leading-tight">
-            <span className="font-heading text-2xl font-bold tracking-tight text-primary">{nav.logo}</span>
-            <span className="hidden text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground sm:inline">
-              {nav.logoSubtitle}
-            </span>
-          </span>
+        <a href="#home" className="flex items-center">
+          <img
+            src={logoFull}
+            alt="Helene Clinic Stemcell Clinic"
+            className="h-9 w-auto sm:h-11"
+            width={936}
+            height={206}
+          />
         </a>
 
         <nav className="hidden items-center gap-7 lg:flex">

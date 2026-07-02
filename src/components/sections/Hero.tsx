@@ -32,11 +32,11 @@ export function Hero() {
               className="relative mt-1 block min-w-[13ch] whitespace-nowrap text-primary"
               aria-live="polite"
             >
-              &ldquo;{typedWord}
+            {typedWord}
               <span className="typewriter-cursor" aria-hidden="true">
                 |
               </span>
-              &rdquo;
+              
             </span>
             <span className="mt-1 block">{hero.headingSuffix}</span>
           </motion.h1>

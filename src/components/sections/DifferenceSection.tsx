@@ -8,7 +8,7 @@ export function DifferenceSection() {
       <div className="section-container">
         <SectionHeading eyebrow={differenceSection.eyebrow} heading={differenceSection.heading} intro={differenceSection.intro} />
 
-        <div className="mx-auto mt-8 grid max-w-2xl grid-cols-1 gap-3 sm:grid-cols-2">
+        <div className="mx-auto mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
           {differenceSection.points.map((point, i) => (
             <Reveal key={point} delay={i * 0.08}>
               <div className="flex items-center gap-3 rounded-xl bg-card p-4 shadow-sm">

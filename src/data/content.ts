@@ -18,6 +18,8 @@ export const nav = {
     { label: "About", href: "#about" },
     { label: "Specialists", href: "#specialists" },
     { label: "Steps", href: "#journey" },
+    { label: "Certifications", href: "#why-japan" },
+    { label: "FAQs", href: "#faq" },
   ],
   suitabilityLabel: "See if you are a suitable candidate",
   suitabilityHref: "#faq",
