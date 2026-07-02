@@ -1,6 +1,8 @@
 import drKobayashi from "@/assets/dr-kobayashi.jpg";
 import drMatsuoka from "@/assets/dr-matsuoka.jpg";
 import drItohara from "@/assets/dr-itohara.jpg";
+import safetyStudyReport from "@/assets/reports/safety-study.pdf";
+import diabetesStudyReport from "@/assets/reports/diabetes-hba1c-study.pdf";
 
 export const WHATSAPP_NUMBER = "819012345678";
 
@@ -162,6 +164,7 @@ export const researchSection = {
     ],
     footnote:
       "These findings suggest a favorable safety profile, while further randomized studies are still needed.",
+    reportUrl: safetyStudyReport,
   },
   diabetesStudy: {
     title: "Diabetes Study",
@@ -175,6 +178,7 @@ export const researchSection = {
     footnote2: "Greater improvements observed in severe diabetes cases.",
     footnote:
       "Further randomized controlled studies are required to validate these findings.",
+    reportUrl: diabetesStudyReport,
   },
   ctaLabel: "Discuss Whether You May Be a Suitable Candidate",
 };
