@@ -171,7 +171,7 @@ export const researchSection = {
     intro:
       "A study involving 61 patients with Type 2 Diabetes receiving a single intravenous MSC infusion reported:",
     stats: [
-      { value: "7.49% → 6.7%", label: "Average HbA1c reduction" },
+      { value: "6.7%", label: "Average HbA1c reduction" },
       { value: "3+ yrs", label: "Median follow-up exceeding three years" },
       { value: "0", label: "Serious adverse events reported" },
     ],
