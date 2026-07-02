@@ -21,8 +21,8 @@ export const nav = {
     { label: "Certifications", href: "#why-japan" },
     { label: "FAQs", href: "#faq" },
   ],
-  suitabilityLabel: "See if you are a suitable candidate",
-  suitabilityHref: "#faq",
+  // suitabilityLabel: "See if you are a suitable candidate",
+  // suitabilityHref: "#faq",
   ctaLabel: "Chat with our experts",
 };
 
