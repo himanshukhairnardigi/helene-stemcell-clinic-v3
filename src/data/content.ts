@@ -34,9 +34,9 @@ export const hero = {
   subheading:
     "Regenerative medicine in Japan can be an option worth discussing with our medical experts.",
   bullets: [
-    "Japan-regulated medical framework",
-    "Online medical pre-assessment available",
-    "Treatment provided exclusively in Japan",
+    // "Japan-regulated medical framework",
+    // "Online medical pre-assessment available",
+    // "Treatment provided exclusively in Japan",
   ],
   ctaLabel: "Talk to Our Medical Team on WhatsApp",
   imageAlt: "Helene Clinic physician consulting with a patient",
