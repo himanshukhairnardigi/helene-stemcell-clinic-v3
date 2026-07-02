@@ -164,21 +164,21 @@ export const researchSection = {
     ],
     footnote:
       "These findings suggest a favorable safety profile, while further randomized studies are still needed.",
-    reportUrl: safetyStudyReport,
+    reportUrl: diabetesStudyReport,
   },
   diabetesStudy: {
     title: "Diabetes Study",
     intro:
       "A study involving 61 patients with Type 2 Diabetes receiving a single intravenous MSC infusion reported:",
     stats: [
-      { value: "7.49% → 6.7%", label: "Average HbA1c reduction" },
+      { value: "6.7%", label: "Average HbA1c reduction" },
       { value: "3+ yrs", label: "Median follow-up exceeding three years" },
       { value: "0", label: "Serious adverse events reported" },
     ],
     footnote2: "Greater improvements observed in severe diabetes cases.",
     footnote:
       "Further randomized controlled studies are required to validate these findings.",
-    reportUrl: diabetesStudyReport,
+    reportUrl: safetyStudyReport,
   },
   ctaLabel: "Discuss Whether You May Be a Suitable Candidate",
 };
