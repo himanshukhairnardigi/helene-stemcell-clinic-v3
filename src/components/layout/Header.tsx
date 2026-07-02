@@ -35,7 +35,7 @@ export function Header() {
         <a href="#home" className="flex items-center gap-3">
           <img src={crestLogo} alt="Helene Clinic crest" className="h-11 w-11 shrink-0" width={44} height={44} />
           <span className="flex flex-col leading-tight">
-            <span className="font-heading text-2xl font-bold tracking-tight text-primary">{nav.logo}</span>
+            <span className="font-heading text-2xl font-bold tracking-[0.2em] text-teal-dark">{nav.logo}</span>
             <span className="hidden text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground sm:inline">
               {nav.logoSubtitle}
             </span>
