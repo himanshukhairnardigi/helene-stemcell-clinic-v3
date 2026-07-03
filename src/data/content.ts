@@ -97,7 +97,7 @@ export const differenceSection = {
     {
       icon: "im",
       title: "IM β-MSC Therapy",
-      description: "Designed to support pancreatic-related glucose function.",
+      description: "Designed to support pancreatic-related glucose regulation.",
     },
   ],
   supportHeading: "Added Long-Term Support",
@@ -105,17 +105,17 @@ export const differenceSection = {
     {
       icon: "review",
       title: "HbA1c Review Every 6 Months",
-      description: "Track measurable progress over time",
+      description: "Track measurable progress over time.",
     },
     {
       icon: "continuedSupport",
       title: "Up to 2 Years Continued Support",
-      description: "Eligible patients may receive further treatment support when clinically appropriate",
+      description: "Eligible patients may receive further treatment support when clinically appropriate.",
     },
     {
       icon: "japan",
       title: "Conducted in Japan",
-      description: "Under a regulated regenerative medicine framework",
+      description: "Under a regulated regenerative medicine framework.",
     },
   ],
   ctaLabel: "Ask About Our β-MSC Program",
@@ -206,13 +206,14 @@ export const treatmentOptionsSection = {
       title: "Mesenchymal Stem Cell (MSC) Therapy — Medical Indications",
       description:
         "Evaluated for osteoarthritis and metabolic conditions. Treatment approach and scope are determined based on individual medical evaluation.",
-      footnote: "Treatment approach, dosing, and administration are determined through individual medical review.",
+      footnote: "Treatment approach, dosing, and administration are determined through individual medical evaluation.",
     },
     {
       icon: "wellness",
       title: "Mesenchymal Stem Cell (MSC) Therapy — Regenerative & Longevity Support",
       description:
-        "Evaluated for existing wellness programs and longevity-oriented support beyond disease treatment. Suitability and treatment planning are confirmed after medical review.",
+        "Evaluated for patients seeking regenerative and longevity-oriented support. May support systemic balance, tissue health, and recovery through regulated regenerative approaches.",
+      footnote: "Suitability and treatment planning are confirmed after medical review.",
     },
   ],
   disclaimer:
@@ -355,7 +356,6 @@ export const videoSection = {
     {
       title: "Type 2 Diabetes Mellitus",
       videoUrl: "https://heleneclinic.com/india_lp/movie/testimonial-t2dm.mp4",
-      caption: "I am Đặng Duy Phương, I was born in Hanoi, Vietnam, in 1957.",
     },
   ],
 };
