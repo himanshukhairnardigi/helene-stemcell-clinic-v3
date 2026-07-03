@@ -45,13 +45,6 @@ export const hero = {
   ],
   ctaLabel: "Talk to Our Medical Team on WhatsApp",
   imageAlt: "Helene Clinic physician consulting with a patient",
-  // trustBadgesHeading: "Why patients trust Helene Clinic",
-  trustBadges: [
-    // "Medical consultation by experts",
-    // "Treatment performed in Japan",
-    // "Regenerative medicine under Japanese regulatory framework",
-    // "Personalized suitability assessment",
-  ],
 };
 
 export const struggleSection = {
