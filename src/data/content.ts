@@ -3,6 +3,10 @@ import drMatsuoka from "@/assets/dr-matsuoka.jpg";
 import drItohara from "@/assets/dr-itohara.jpg";
 import safetyStudyReport from "@/assets/reports/safety-study.pdf";
 import diabetesStudyReport from "@/assets/reports/diabetes-hba1c-study.pdf";
+import cellProcessingLab from "@/assets/clinic-interior.jpg";
+import osteoarthritisImage from "@/assets/Osteoarthritis (MSC Therapy).jpg";
+import diabetesImage from "@/assets/Type 2 Diabetes (T2DM).jpg";
+import aestheticsImage from "@/assets/Regenerative Aesthetics & Anti-Aging.jpg";
 
 export const WHATSAPP_NUMBER = "819012345678";
 
@@ -34,18 +38,19 @@ export const hero = {
   subheading:
     "Regenerative medicine in Japan can be an option worth discussing with our medical experts.",
   bullets: [
-    "Japan-regulated medical framework",
-    "Online medical pre-assessment available",
-    "Treatment provided exclusively in Japan",
-  ],
-  ctaLabel: "Talk to Our Medical Team on WhatsApp",
-  imageAlt: "Helene Clinic physician consulting with a patient",
-  trustBadgesHeading: "Why patients trust Helene Clinic",
-  trustBadges: [
     "Medical consultation by experts",
     "Treatment performed in Japan",
     "Regenerative medicine under Japanese regulatory framework",
     "Personalized suitability assessment",
+  ],
+  ctaLabel: "Talk to Our Medical Team on WhatsApp",
+  imageAlt: "Helene Clinic physician consulting with a patient",
+  // trustBadgesHeading: "Why patients trust Helene Clinic",
+  trustBadges: [
+    // "Medical consultation by experts",
+    // "Treatment performed in Japan",
+    // "Regenerative medicine under Japanese regulatory framework",
+    // "Personalized suitability assessment",
   ],
 };
 
@@ -163,6 +168,7 @@ export const cellProcessingSection = {
     "12+ years of clinical experience",
     "17,000+ patients evaluated and treated",
   ],
+  image: cellProcessingLab,
   imageAlt: "Inside HELENE Clinic's in-house cell processing laboratory",
   ctaLabel: "Check If You're Eligible",
 };
@@ -175,18 +181,21 @@ export const conditionsSection = {
       title: "Osteoarthritis (MSC Therapy)",
       description:
         "Support joint function and mobility by targeting inflammation and cartilage degeneration, evaluated as a non-surgical option.",
+      image: osteoarthritisImage,
       imageAlt: "Doctor examining a patient's knee joint affected by osteoarthritis",
     },
     {
       title: "Type 2 Diabetes (T2DM)",
       description:
         "Support metabolic balance and insulin sensitivity through regenerative approaches, subject to structured medical evaluation.",
+      image: diabetesImage,
       imageAlt: "Blood glucose meter used to monitor Type 2 Diabetes",
     },
     {
       title: "Regenerative Aesthetics & Anti-Aging",
       description:
         "Support skin quality and tissue renewal using regenerative-grade approaches, evaluated before fillers or surgery.",
+      image: aestheticsImage,
       imageAlt: "Close-up of facial skin representing regenerative aesthetics and anti-aging care",
     },
   ],
@@ -277,6 +286,16 @@ export const researchSection = {
   ctaLabel: "Discuss Whether You May Be a Suitable Candidate",
 };
 
+export const clinicTourSection = {
+  eyebrow: "Inside the Clinic",
+  heading: "See How It Actually Works, Inside Our Tokyo Clinic",
+  intro:
+    "Rather than just take our word for it, here's a look inside the process itself — from how we collect and culture your own cells to how the infusion is administered, under Japan's regulatory framework for regenerative medicine.",
+  youtubeId: "JxVk7_Kpvt0",
+  caption:
+    "Omotesando Helene Clinic — autologous stem cell collection, culturing, and administration.",
+};
+
 export const specialistsSection = {
   eyebrow: "Our Team",
   heading: "Our Regenerative Medicine Specialists",
@@ -339,12 +358,12 @@ export const videoSection = {
   testimonials: [
     {
       title: "Osteoarthritis",
-      youtubeId: "",
+      videoUrl: "https://heleneclinic.com/india_lp/movie/testimonial-osteoarthritis.mp4",
       caption: "",
     },
     {
       title: "Type 2 Diabetes Mellitus",
-      youtubeId: "",
+      videoUrl: "https://heleneclinic.com/india_lp/movie/testimonial-t2dm.mp4",
       caption: "I am Đặng Duy Phương, I was born in Hanoi, Vietnam, in 1957.",
     },
   ],

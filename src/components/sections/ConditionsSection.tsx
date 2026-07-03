@@ -1,7 +1,6 @@
 import { conditionsSection } from "@/data/content";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
-import { PlaceholderImage } from "@/components/ui/PlaceholderImage";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function ConditionsSection() {
@@ -14,7 +13,12 @@ export function ConditionsSection() {
           {conditionsSection.conditions.map((condition, i) => (
             <Reveal key={condition.title} delay={i * 0.08}>
               <div className="group h-full overflow-hidden rounded-2xl border border-border bg-card shadow-[0_4px_20px_-6px_rgba(15,45,40,0.08)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_16px_36px_-10px_rgba(15,45,40,0.16)]">
-                <PlaceholderImage label={condition.imageAlt} className="aspect-[4/3] w-full rounded-none border-0" />
+                <img
+                  src={condition.image}
+                  alt={condition.imageAlt}
+                  className="aspect-[4/3] w-full object-cover"
+                  loading="lazy"
+                />
                 <div className="p-6 text-left">
                   <h3 className="text-lg font-semibold leading-snug text-teal-dark">{condition.title}</h3>
                   <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground">{condition.description}</p>

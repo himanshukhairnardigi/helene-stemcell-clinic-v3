@@ -13,6 +13,7 @@ import { WhyHeleneSection } from "@/components/sections/WhyHeleneSection";
 import { SpecialistsSection } from "@/components/sections/SpecialistsSection";
 import { LocationSection } from "@/components/sections/LocationSection";
 import { ResearchSection } from "@/components/sections/ResearchSection";
+import { ClinicTourSection } from "@/components/sections/ClinicTourSection";
 import { ComparisonSection } from "@/components/sections/ComparisonSection";
 import { JourneySection } from "@/components/sections/JourneySection";
 import { FaqSection } from "@/components/sections/FaqSection";
@@ -35,6 +36,7 @@ function App() {
         <SpecialistsSection />
         <LocationSection />
         <ResearchSection />
+        <ClinicTourSection />
         <ComparisonSection />
         <JourneySection />
         <FaqSection />

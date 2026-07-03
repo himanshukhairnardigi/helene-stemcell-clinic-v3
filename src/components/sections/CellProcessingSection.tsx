@@ -1,7 +1,6 @@
 import { HiCheckCircle } from "react-icons/hi";
 import { cellProcessingSection } from "@/data/content";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
-import { PlaceholderImage } from "@/components/ui/PlaceholderImage";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function CellProcessingSection() {
@@ -10,9 +9,11 @@ export function CellProcessingSection() {
       <div className="section-container">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal>
-            <PlaceholderImage
-              label="Add in-house cell processing lab photo here"
-              className="aspect-[4/3] w-full shadow-[0_4px_20px_-6px_rgba(15,45,40,0.08)]"
+            <img
+              src={cellProcessingSection.image}
+              alt={cellProcessingSection.imageAlt}
+              className="aspect-[4/3] w-full rounded-2xl border border-border object-cover shadow-[0_4px_20px_-6px_rgba(15,45,40,0.08)]"
+              loading="lazy"
             />
           </Reveal>
 
