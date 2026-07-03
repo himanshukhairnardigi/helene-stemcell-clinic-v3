@@ -82,47 +82,139 @@ export const struggleSection = {
 };
 
 export const differenceSection = {
-  eyebrow: "The Science",
-  heading: "What makes regenerative medicine different?",
-  intro:
-    "Stem cells are being studied because of their potential regenerative and immunomodulatory properties. Researchers are exploring their role in:",
-  points: [
-    "Supporting tissue repair",
-    "Reducing inflammation",
-    "Improving cellular function",
-    "Supporting quality of life in certain conditions",
+  eyebrow: "The β-MSC Program",
+  heading: "Why Our β-MSC Diabetes Program Is Different",
+  intro: "A more advanced approach designed for patients seeking options beyond routine medication.",
+  therapies: [
+    {
+      icon: "iv",
+      title: "IV Therapy",
+      description: "Supports inflammation balance and insulin sensitivity.",
+    },
+    {
+      icon: "im",
+      title: "IM β-MSC Therapy",
+      description: "Designed to support pancreatic-related glucose function.",
+    },
   ],
-  disclaimerLabel: "Important note",
-  disclaimer:
-    "Stem cell therapy is not appropriate for everyone, and individual outcomes can vary.",
+  supportHeading: "Added Long-Term Support",
+  support: [
+    {
+      icon: "review",
+      title: "HbA1c Review Every 6 Months",
+      description: "Track measurable progress over time",
+    },
+    {
+      icon: "continuedSupport",
+      title: "Up to 2 Years Continued Support",
+      description: "Eligible patients may receive further treatment support when clinically appropriate",
+    },
+    {
+      icon: "japan",
+      title: "Conducted in Japan",
+      description: "Under a regulated regenerative medicine framework",
+    },
+  ],
+  ctaLabel: "Ask About Our β-MSC Program",
 };
 
 export const japanSection = {
   eyebrow: "The Japan Advantage",
-  heading: "Why do international patients choose Japan for regenerative medicine?",
+  heading: "Why Patients Choose Japan for Regenerative Therapy",
   cards: [
     {
-      icon: "ecosystem",
-      title: "Advanced regenerative medicine ecosystem",
-    },
-    {
-      icon: "standards",
-      title: "High clinical standards",
-    },
-    {
-      icon: "gmp",
-      title: "GMP-compliant cell processing",
-    },
-    {
       icon: "supervision",
-      title: "Physician-supervised treatment protocols",
+      description:
+        "Treatments conducted within Japan's long established, government regulated framework for patient safety and protection",
+    },
+    {
+      icon: "ecosystem",
+      description: "Advanced cell processing centers and quality-controlled laboratories",
+    },
+    {
+      icon: "planning",
+      description: "Structured treatment journey with pre- and post-care support",
+    },
+    {
+      icon: "support",
+      description:
+        "Experienced doctors with a dedicated international patient program, supported by English-speaking medical coordinators",
     },
     {
       icon: "expertise",
-      title: "Long-standing expertise in stem cell research",
+      description:
+        "Condition specific regenerative programs, including osteoarthritis and type 2 diabetes, determined by medical review",
     },
   ],
-  ctaLabel: "Understand Treatment Options",
+  ctaLabel: "Check If You're Eligible",
+};
+
+export const cellProcessingSection = {
+  eyebrow: "In-House Cell Processing Center",
+  heading: "Regenerative Medicine Clinic with In-House Cell Processing",
+  paragraphs: [
+    "HELENE Clinic operates as a specialized regenerative medicine clinic in Tokyo, where medical evaluation, cell processing, and treatment are conducted within a controlled, in-house environment.",
+    "Cell processing is performed on-site within our Cell Processing Center, following established quality standards and protocols under Japan's regulated medical framework. All treatment plans are reviewed and approved prior to administration.",
+  ],
+  checklist: [
+    "Autologous stem cell therapies with in-house processing",
+    "ISO 9001 certified on-site Cell Processing Center",
+    "Treatment plans reviewed under Japan's regulated medical framework",
+    "12+ years of clinical experience",
+    "17,000+ patients evaluated and treated",
+  ],
+  imageAlt: "Inside HELENE Clinic's in-house cell processing laboratory",
+  ctaLabel: "Check If You're Eligible",
+};
+
+export const conditionsSection = {
+  eyebrow: "Who We Treat",
+  heading: "Conditions Evaluated for Regenerative Therapy",
+  conditions: [
+    {
+      title: "Osteoarthritis (MSC Therapy)",
+      description:
+        "Support joint function and mobility by targeting inflammation and cartilage degeneration, evaluated as a non-surgical option.",
+      imageAlt: "Doctor examining a patient's knee joint affected by osteoarthritis",
+    },
+    {
+      title: "Type 2 Diabetes (T2DM)",
+      description:
+        "Support metabolic balance and insulin sensitivity through regenerative approaches, subject to structured medical evaluation.",
+      imageAlt: "Blood glucose meter used to monitor Type 2 Diabetes",
+    },
+    {
+      title: "Regenerative Aesthetics & Anti-Aging",
+      description:
+        "Support skin quality and tissue renewal using regenerative-grade approaches, evaluated before fillers or surgery.",
+      imageAlt: "Close-up of facial skin representing regenerative aesthetics and anti-aging care",
+    },
+  ],
+  disclaimer: "Disclaimer: Treatment suitability is determined through medical review; individual responses may vary.",
+  ctaLabel: "Check If You Are Eligible",
+};
+
+export const treatmentOptionsSection = {
+  eyebrow: "Cost Overview",
+  heading: "Regenerative Treatment Options Available and Cost Overview",
+  options: [
+    {
+      icon: "medical",
+      title: "Mesenchymal Stem Cell (MSC) Therapy — Medical Indications",
+      description:
+        "Evaluated for osteoarthritis and metabolic conditions. Treatment approach and scope are determined based on individual medical evaluation.",
+      footnote: "Treatment approach, dosing, and administration are determined through individual medical review.",
+    },
+    {
+      icon: "wellness",
+      title: "Mesenchymal Stem Cell (MSC) Therapy — Regenerative & Longevity Support",
+      description:
+        "Evaluated for existing wellness programs and longevity-oriented support beyond disease treatment. Suitability and treatment planning are confirmed after medical review.",
+    },
+  ],
+  disclaimer:
+    "Treatment fees vary depending on medical evaluation, therapeutic indication, and administration method. Final treatment planning and pricing are confirmed only after a doctor's review under Japan's regulated medical framework.",
+  ctaLabel: "Request Medical Review",
 };
 
 export const whyHeleneSection = {
@@ -216,6 +308,9 @@ export const specialistsSection = {
       photo: drItohara,
     },
   ],
+  disclaimer:
+    "All regenerative treatments are evaluated and approved by licensed medical doctors. Treatment suitability is determined through individual medical review.",
+  ctaLabel: "Proceed to Medical Evaluation",
 };
 
 export const contact = {
@@ -227,21 +322,32 @@ export const contact = {
 
 export const locationSection = {
   eyebrow: "Visit Us",
-  heading: "Our Clinic Location",
+  heading: "Clinic Location — Tokyo, Japan",
   intro:
-    "Treatment takes place at Helene Clinic in the Omotesando district of Tokyo, Japan — easily reached from Omotesando Station.",
+    "HELENE Clinic is located in Tokyo, approximately an 8–9 hour flight, with dedicated support for international patients throughout consultation, treatment, and follow-up.",
   addressLines: ["Helene Clinic Omotesando", contact.postalCode, ...contact.addressLines, "Tokyo, Japan"],
   mapQuery: "5-9-15 Minami-Aoyama, Minato-ku, Tokyo, Japan",
+  fromCity: "Mumbai, India",
+  toCity: "Tokyo, Japan",
+  caption: "Central Tokyo location with convenient international access",
+  ctaLabel: "Start Your Medical Review",
 };
 
 export const videoSection = {
-  eyebrow: "Inside the Clinic",
-  heading: "See How It Actually Works, Inside Our Tokyo Clinic",
-  intro:
-    "Rather than just take our word for it, here's a look inside the process itself — from how we collect and culture your own cells to how the infusion is administered, under Japan's regulatory framework for regenerative medicine.",
-  youtubeId: "JxVk7_Kpvt0",
-  caption:
-    "Omotesando Helene Clinic — autologous stem cell collection, culturing, and administration.",
+  eyebrow: "Patient Outcomes",
+  heading: "Why Choose us?",
+  testimonials: [
+    {
+      title: "Osteoarthritis",
+      youtubeId: "",
+      caption: "",
+    },
+    {
+      title: "Type 2 Diabetes Mellitus",
+      youtubeId: "",
+      caption: "I am Đặng Duy Phương, I was born in Hanoi, Vietnam, in 1957.",
+    },
+  ],
 };
 
 export const comparisonSection = {
@@ -285,15 +391,33 @@ export const comparisonSection = {
 
 export const journeySection = {
   eyebrow: "How It Works",
-  heading: "Your Journey with Helene Clinic",
+  heading: "Your Treatment Journey",
   steps: [
-    { icon: "share", title: "Share your medical reports on WhatsApp" },
-    { icon: "review", title: "Initial review by medical team" },
-    { icon: "assessment", title: "Suitability assessment" },
-    { icon: "planning", title: "Treatment discussion and planning" },
-    { icon: "travel", title: "Travel to Japan if appropriate" },
-    { icon: "followup", title: "Post-treatment follow-up guidance" },
+    {
+      icon: "onlineReview",
+      title: "Online Medical Review",
+      description: "Submit medical reports for doctor review to assess suitability and treatment approach",
+    },
+    {
+      icon: "travel",
+      title: "First Visit to Japan",
+      description:
+        "In-person consultation, personalized treatment planning, and tissue collection carried out under regulated protocol",
+    },
+    {
+      icon: "secondVisit",
+      title: "Second Visit",
+      description:
+        "Stem cell culturing required approximately 30 days following initial collection. After this period, patients return to Japan for the approved treatment administration.",
+    },
+    {
+      icon: "followup",
+      title: "Follow-Up Care",
+      description:
+        "Remote follow-up carried out as part of the structured treatment plan under individual medical protocols.",
+    },
   ],
+  ctaLabel: "Request Medical Review",
 };
 
 export const faqSection = {

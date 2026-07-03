@@ -2,41 +2,35 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { locationSection } from "@/data/content";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
+import clinicRouteMap from "@/assets/clinic-route-map.png";
 
 export function LocationSection() {
-  const mapSrc = `https://maps.google.com/maps?q=${encodeURIComponent(locationSection.mapQuery)}&z=15&output=embed`;
-
   return (
-    <section className="bg-secondary/50 py-16 sm:py-24" id="location">
+    <section className="bg-background py-16 sm:py-24" id="location">
       <div className="section-container">
         <SectionHeading eyebrow={locationSection.eyebrow} heading={locationSection.heading} intro={locationSection.intro} />
 
-        <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2">
-          <Reveal>
-            <div className="overflow-hidden rounded-2xl border border-border shadow-sm">
-              <iframe
-                title="Helene Clinic location map"
-                src={mapSrc}
-                className="h-[320px] w-full lg:h-full"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
-          </Reveal>
+        <Reveal className="mt-12" delay={0.1}>
+          <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-[0_4px_20px_-6px_rgba(15,45,40,0.08)]">
+            <img
+              src={clinicRouteMap}
+              alt="Flight route from Mumbai, India to Helene Clinic in Tokyo, Japan"
+              className="h-auto w-full"
+            />
+          </div>
+        </Reveal>
 
-          <Reveal delay={0.1}>
-            <div className="card-surface flex h-full flex-col justify-center text-left">
-              <span className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
-                <HiOutlineLocationMarker className="h-6 w-6" aria-hidden="true" />
-              </span>
-              <address className="space-y-1 text-[15px] not-italic leading-relaxed text-foreground/85">
-                {locationSection.addressLines.map((line) => (
-                  <p key={line}>{line}</p>
-                ))}
-              </address>
-            </div>
-          </Reveal>
-        </div>
+        <Reveal delay={0.15} className="mt-6 flex justify-center">
+          <p className="flex items-center gap-2 text-[15px] text-muted-foreground">
+            <HiOutlineLocationMarker className="h-5 w-5 shrink-0 text-primary" aria-hidden="true" />
+            {locationSection.caption}
+          </p>
+        </Reveal>
+
+        <Reveal delay={0.2} className="mt-8 flex justify-center">
+          <WhatsAppButton label={locationSection.ctaLabel} />
+        </Reveal>
       </div>
     </section>
   );
