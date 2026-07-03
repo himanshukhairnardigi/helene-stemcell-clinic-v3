@@ -7,6 +7,21 @@ import cellProcessingLab from "@/assets/clinic-interior.jpg";
 import osteoarthritisImage from "@/assets/Osteoarthritis (MSC Therapy).jpg";
 import diabetesImage from "@/assets/Type 2 Diabetes (T2DM).jpg";
 import aestheticsImage from "@/assets/Regenerative Aesthetics & Anti-Aging.jpg";
+import certFacilityNotification from "@/assets/certification-5.jpg";
+import certCerebralInfarction from "@/assets/certification-6.jpg";
+import certPrpOsteoarthritis from "@/assets/certification-7.jpg";
+import certMscTeeth from "@/assets/certification-8.jpg";
+import certMscJoints from "@/assets/certification-9.jpg";
+import certArteriosclerosis from "@/assets/certification-10.jpg";
+import certHairLoss from "@/assets/certification-11.jpg";
+import certFacialTopical from "@/assets/certification-12.jpg";
+import certExosomesImmuneFrailty from "@/assets/certification-13.jpg";
+import certType2Diabetes from "@/assets/certification-14.jpg";
+import certType1Diabetes from "@/assets/certification-15.jpg";
+import certFemaleHormonal from "@/assets/certification-16.jpg";
+import certFacialSubcutaneous from "@/assets/certification-17.jpg";
+import certErectileDysfunction from "@/assets/certification-18.jpg";
+import certNeurodegenerative from "@/assets/certification-19.jpg";
 
 export const WHATSAPP_NUMBER = "819012345678";
 
@@ -290,6 +305,78 @@ export const researchSection = {
     reportUrl: safetyStudyReport,
   },
   ctaLabel: "Discuss Whether You May Be a Suitable Candidate",
+};
+
+export const certificationsSection = {
+  heading: "Certified, Regulated & Trusted",
+  items: [
+    {
+      image: certPrpOsteoarthritis,
+      title: "Acceptance Certificate for PRP Osteoarthritis",
+    },
+    {
+      image: certMscTeeth,
+      title: "License of MSC with Teeth",
+    },
+    {
+      image: certMscJoints,
+      title: "License of MSC Transplantation into Joints",
+    },
+    {
+      image: certExosomesImmuneFrailty,
+      title: "License of MSC and MSC-Derived Exosomes with Immune Frailty",
+    },
+    {
+      image: certFacilityNotification,
+      title: "Notification of Cell Processing Facility Registration",
+    },
+    {
+      image: certCerebralInfarction,
+      title: "License of MSC IV Therapy for Cerebral Infarction",
+    },
+    {
+      image: certArteriosclerosis,
+      title: "License of MSC IV Therapy for Arteriosclerosis",
+    },
+    {
+      image: certHairLoss,
+      title: "License of MSC Therapy for Hair Loss",
+    },
+    {
+      image: certFacialTopical,
+      title: "License of MSC Topical Application for Skin",
+    },
+    {
+      image: certType2Diabetes,
+      title: "License of MSC IV Therapy for Type 2 Diabetes",
+    },
+    {
+      image: certType1Diabetes,
+      title: "License of MSC IV Therapy for Type 1 Diabetes",
+    },
+    {
+      image: certFemaleHormonal,
+      title: "License of MSC Therapy for Female Hormonal Imbalance",
+    },
+    {
+      image: certFacialSubcutaneous,
+      title: "License of MSC Subcutaneous Therapy for Skin Rejuvenation",
+    },
+    {
+      image: certErectileDysfunction,
+      title: "License of MSC Therapy for Erectile Dysfunction",
+    },
+    {
+      image: certNeurodegenerative,
+      title: "License of MSC IV Therapy for Neurodegenerative Disease",
+    },
+  ],
+  checklist: [
+    "ISO 9001–certified quality management system supporting clinical operations and cell processing",
+    "Licenses reviewed and approved under Japan's national regulatory framework",
+    "Strict hygiene, quality control, and documentation protocols at every stage of care",
+    "Dedicated international patient support team for clear communication before, during, and after treatment",
+  ],
 };
 
 export const clinicTourSection = {
