@@ -208,30 +208,30 @@ export const japanSection = {
   heading: "Why do international patients choose Japan for regenerative medicine?",
   cards: [
     {
-      icon: "supervision",
+      icon: "shieldSafety",
       description:
-        "Advanced regenerative medicine ecosystem",
+        "Treatments conducted within Japan's long-established, government-regulated framework for patient safety and protection",
     },
     {
       icon: "ecosystem",
-      description: "High clinical standards",
+      description: "Advanced cell processing centers and quality-controlled laboratories",
     },
     {
-      icon: "planning",
-      description: "GMP-compliant cell processing",
+      icon: "structuredJourney",
+      description: "Structured treatment journey with pre- and post-care support",
     },
     {
-      icon: "support",
+      icon: "supervision",
       description:
-        "Physician-supervised treatment protocols",
+        "Experienced doctors with a dedicated international patient program, supported by English-speaking medical coordinators",
     },
     {
-      icon: "expertise",
+      icon: "microscope",
       description:
-        "Long-standing expertise in stem cell research",
+        "Condition-specific regenerative programs, including osteoarthritis and type 2 diabetes — eligibility determined by medical review",
     },
   ],
-  ctaLabel: "Understand Treatment Options",
+  ctaLabel: "Check If You're Eligible",
 };
 
 export const whyHeleneSection = {
@@ -411,7 +411,7 @@ export const comparisonSection = {
 };
 
 export const journeySection = {
-  heading: "Your Treatment Journey",
+  heading: "Your Journey with Helene Clinic",
   steps: [
     {
       icon: "onlineReview",
