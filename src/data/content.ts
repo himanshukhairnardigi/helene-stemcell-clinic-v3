@@ -31,7 +31,6 @@ export const nav = {
 };
 
 export const hero = {
-  eyebrow: "Japan-Regulated Regenerative Therapy",
   headingPrefix: "Still struggling with",
   typewriterWords: ["Diabetes", "Osteoarthritis"],
   headingSuffix: "despite medications and lifestyle changes?",
@@ -86,7 +85,6 @@ export const struggleSection = {
 };
 
 export const scienceSection = {
-  eyebrow: "The Science",
   heading: "What makes regenerative medicine different?",
   intro:
     "Stem cells are being studied because of their potential regenerative and immunomodulatory properties. Researchers are exploring their role in:",
@@ -347,7 +345,6 @@ export const contact = {
 };
 
 export const locationSection = {
-  eyebrow: "Visit Us",
   heading: "Clinic Location — Tokyo, Japan",
   intro:
     "HELENE Clinic is located in Tokyo, approximately an 8–9 hour flight, with dedicated support for international patients throughout consultation, treatment, and follow-up.",
@@ -444,7 +441,6 @@ export const journeySection = {
 };
 
 export const faqSection = {
-  eyebrow: "FAQs",
   heading: "Frequently Asked Questions",
   items: [
     {
