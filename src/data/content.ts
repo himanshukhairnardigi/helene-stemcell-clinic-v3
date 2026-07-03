@@ -401,28 +401,40 @@ export const comparisonSection = {
 
 export const journeySection = {
   
-  heading: "Your Treatment Journey",
+  heading: "Your Journey with Helene Clinic",
   steps: [
     {
       icon: "onlineReview",
-      title: "Online Medical Review",
+      title: "Share your medical reports on WhatsApp",
       description: "Submit medical reports for doctor review to assess suitability and treatment approach",
     },
     {
       icon: "travel",
-      title: "First Visit to Japan",
+      title: "Initial review by medical team",
       description:
         "In-person consultation, personalized treatment planning, and tissue collection carried out under regulated protocol",
     },
     {
       icon: "secondVisit",
-      title: "Second Visit",
+      title: "Suitability assessment",
       description:
         "Stem cell culturing required approximately 30 days following initial collection. After this period, patients return to Japan for the approved treatment administration.",
     },
     {
       icon: "followup",
-      title: "Follow-Up Care",
+      title: "Treatment discussion and planning",
+      description:
+        "Remote follow-up carried out as part of the structured treatment plan under individual medical protocols.",
+    },
+    {
+      icon: "followup",
+      title: "Travel to Japan if appropriate",
+      description:
+        "Remote follow-up carried out as part of the structured treatment plan under individual medical protocols.",
+    },
+    {
+      icon: "followup",
+      title: "Post-treatment follow-up guidance",
       description:
         "Remote follow-up carried out as part of the structured treatment plan under individual medical protocols.",
     },
