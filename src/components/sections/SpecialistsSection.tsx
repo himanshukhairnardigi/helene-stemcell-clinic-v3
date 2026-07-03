@@ -1,6 +1,7 @@
 import { HiOutlineUser } from "react-icons/hi";
 import { specialistsSection } from "@/data/content";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function SpecialistsSection() {
@@ -35,6 +36,14 @@ export function SpecialistsSection() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={0.3} className="mx-auto mt-8 max-w-2xl text-center">
+          <p className="text-xs leading-relaxed text-muted-foreground">{specialistsSection.disclaimer}</p>
+        </Reveal>
+
+        <Reveal delay={0.35} className="mt-8 flex justify-center">
+          <WhatsAppButton label={specialistsSection.ctaLabel} />
+        </Reveal>
       </div>
     </section>
   );

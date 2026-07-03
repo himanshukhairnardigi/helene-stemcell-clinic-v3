@@ -16,6 +16,13 @@ import {
   HiOutlineCalendar,
   HiOutlinePaperAirplane,
   HiOutlineAnnotation,
+  HiOutlineDatabase,
+  HiOutlineBadgeCheck,
+  HiOutlineRefresh,
+  HiOutlineFlag,
+  HiOutlineClipboardList as HiOutlineMedical,
+  HiOutlineSparkles as HiOutlineWellness,
+  HiOutlineDocumentSearch as HiOutlineOnlineReview,
 } from "react-icons/hi";
 
 const iconMap: Record<string, IconType> = {
@@ -35,6 +42,14 @@ const iconMap: Record<string, IconType> = {
   planning: HiOutlineCalendar,
   travel: HiOutlinePaperAirplane,
   followup: HiOutlineAnnotation,
+  iv: HiOutlineDatabase,
+  im: HiOutlineBeaker,
+  continuedSupport: HiOutlineBadgeCheck,
+  japan: HiOutlineFlag,
+  medical: HiOutlineMedical,
+  wellness: HiOutlineWellness,
+  onlineReview: HiOutlineOnlineReview,
+  secondVisit: HiOutlineRefresh,
 };
 
 interface CardIconProps {

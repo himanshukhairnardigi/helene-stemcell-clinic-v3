@@ -12,10 +12,12 @@ export function JapanSection() {
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {japanSection.cards.map((card, i) => (
-            <Reveal key={card.title} delay={i * 0.08}>
-              <div className="group card-surface h-full text-left">
-                <CardIcon name={card.icon} />
-                <h3 className="text-lg font-semibold leading-snug text-teal-dark">{card.title}</h3>
+            <Reveal key={card.description} delay={i * 0.08}>
+              <div className="group card-surface h-full text-center">
+                <div className="flex justify-center">
+                  <CardIcon name={card.icon} />
+                </div>
+                <p className="text-[15px] leading-relaxed text-foreground/80">{card.description}</p>
               </div>
             </Reveal>
           ))}

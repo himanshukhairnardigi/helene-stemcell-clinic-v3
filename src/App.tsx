@@ -3,13 +3,16 @@ import { Footer } from "@/components/layout/Footer";
 import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
 import { Hero } from "@/components/sections/Hero";
 import { StruggleSection } from "@/components/sections/StruggleSection";
-import { DifferenceSection } from "@/components/sections/DifferenceSection";
 import { JapanSection } from "@/components/sections/JapanSection";
+import { CellProcessingSection } from "@/components/sections/CellProcessingSection";
+import { ConditionsSection } from "@/components/sections/ConditionsSection";
+import { VideoSection } from "@/components/sections/VideoSection";
+import { TreatmentOptionsSection } from "@/components/sections/TreatmentOptionsSection";
+import { DifferenceSection } from "@/components/sections/DifferenceSection";
 import { WhyHeleneSection } from "@/components/sections/WhyHeleneSection";
 import { SpecialistsSection } from "@/components/sections/SpecialistsSection";
 import { LocationSection } from "@/components/sections/LocationSection";
 import { ResearchSection } from "@/components/sections/ResearchSection";
-import { VideoSection } from "@/components/sections/VideoSection";
 import { ComparisonSection } from "@/components/sections/ComparisonSection";
 import { JourneySection } from "@/components/sections/JourneySection";
 import { FaqSection } from "@/components/sections/FaqSection";
@@ -22,13 +25,16 @@ function App() {
       <main>
         <Hero />
         <StruggleSection />
-        <DifferenceSection />
         <JapanSection />
+        <CellProcessingSection />
+        <ConditionsSection />
+        <VideoSection />
+        <TreatmentOptionsSection />
+        <DifferenceSection />
         <WhyHeleneSection />
         <SpecialistsSection />
         <LocationSection />
         <ResearchSection />
-        <VideoSection />
         <ComparisonSection />
         <JourneySection />
         <FaqSection />
