@@ -122,33 +122,33 @@ export const differenceSection = {
 };
 
 export const japanSection = {
-  heading: "Why Patients Choose Japan for Regenerative Therapy",
+  heading: "Why do international patients choose Japan for regenerative medicine?",
   cards: [
     {
       icon: "supervision",
       description:
-        "Treatments conducted within Japan's long established, government regulated framework for patient safety and protection",
+        "Advanced regenerative medicine ecosystem",
     },
     {
       icon: "ecosystem",
-      description: "Advanced cell processing centers and quality-controlled laboratories",
+      description: "High clinical standards",
     },
     {
       icon: "planning",
-      description: "Structured treatment journey with pre- and post-care support",
+      description: "GMP-compliant cell processing",
     },
     {
       icon: "support",
       description:
-        "Experienced doctors with a dedicated international patient program, supported by English-speaking medical coordinators",
+        "Physician-supervised treatment protocols",
     },
     {
       icon: "expertise",
       description:
-        "Condition specific regenerative programs, including osteoarthritis and type 2 diabetes, determined by medical review",
+        "Long-standing expertise in stem cell research",
     },
   ],
-  ctaLabel: "Check If You're Eligible",
+  ctaLabel: "Understand Treatment Options",
 };
 
 export const cellProcessingSection = {
