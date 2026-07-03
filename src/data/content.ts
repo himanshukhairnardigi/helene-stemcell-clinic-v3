@@ -121,36 +121,6 @@ export const differenceSection = {
   ctaLabel: "Ask About Our β-MSC Program",
 };
 
-export const japanSection = {
-  heading: "Why do international patients choose Japan for regenerative medicine?",
-  cards: [
-    {
-      icon: "supervision",
-      description:
-        "Advanced regenerative medicine ecosystem",
-    },
-    {
-      icon: "ecosystem",
-      description: "High clinical standards",
-    },
-    {
-      icon: "planning",
-      description: "GMP-compliant cell processing",
-    },
-    {
-      icon: "support",
-      description:
-        "Physician-supervised treatment protocols",
-    },
-    {
-      icon: "expertise",
-      description:
-        "Long-standing expertise in stem cell research",
-    },
-  ],
-  ctaLabel: "Understand Treatment Options",
-};
-
 export const cellProcessingSection = {
   heading: "Regenerative Medicine Clinic with In-House Cell Processing",
   paragraphs: [
@@ -221,6 +191,36 @@ export const treatmentOptionsSection = {
   ctaLabel: "Request Medical Review",
 };
 
+export const japanSection = {
+  heading: "Why do international patients choose Japan for regenerative medicine?",
+  cards: [
+    {
+      icon: "supervision",
+      description:
+        "Advanced regenerative medicine ecosystem",
+    },
+    {
+      icon: "ecosystem",
+      description: "High clinical standards",
+    },
+    {
+      icon: "planning",
+      description: "GMP-compliant cell processing",
+    },
+    {
+      icon: "support",
+      description:
+        "Physician-supervised treatment protocols",
+    },
+    {
+      icon: "expertise",
+      description:
+        "Long-standing expertise in stem cell research",
+    },
+  ],
+  ctaLabel: "Understand Treatment Options",
+};
+
 export const whyHeleneSection = {
   heading: "Why Helene Clinic",
   cards: [
@@ -248,7 +248,6 @@ export const whyHeleneSection = {
 };
 
 export const researchSection = {
-  eyebrow: "Published Research",
   heading: "Research that informs our approach",
   safetyStudy: {
     title: "Safety Study",
