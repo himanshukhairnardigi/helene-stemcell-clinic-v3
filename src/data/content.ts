@@ -55,7 +55,6 @@ export const hero = {
 };
 
 export const struggleSection = {
-  eyebrow: "You're Not Starting From Zero",
   heading: "If You're Reading This, You've Probably Already Tried Everything.",
   intro:
     "Maybe it's the diabetes that won't respond no matter how careful you are. Maybe it's the knee that makes you think twice before taking the stairs. Either way, you didn't land on this page by accident — you've already put in the work.",
@@ -87,7 +86,6 @@ export const struggleSection = {
 };
 
 export const differenceSection = {
-  eyebrow: "The β-MSC Program",
   heading: "Why Our β-MSC Diabetes Program Is Different",
   intro: "A more advanced approach designed for patients seeking options beyond routine medication.",
   therapies: [
@@ -124,7 +122,6 @@ export const differenceSection = {
 };
 
 export const japanSection = {
-  eyebrow: "The Japan Advantage",
   heading: "Why Patients Choose Japan for Regenerative Therapy",
   cards: [
     {
@@ -155,7 +152,6 @@ export const japanSection = {
 };
 
 export const cellProcessingSection = {
-  eyebrow: "In-House Cell Processing Center",
   heading: "Regenerative Medicine Clinic with In-House Cell Processing",
   paragraphs: [
     "HELENE Clinic operates as a specialized regenerative medicine clinic in Tokyo, where medical evaluation, cell processing, and treatment are conducted within a controlled, in-house environment.",
@@ -174,7 +170,6 @@ export const cellProcessingSection = {
 };
 
 export const conditionsSection = {
-  eyebrow: "Who We Treat",
   heading: "Conditions Evaluated for Regenerative Therapy",
   conditions: [
     {
@@ -204,7 +199,6 @@ export const conditionsSection = {
 };
 
 export const treatmentOptionsSection = {
-  eyebrow: "Cost Overview",
   heading: "Regenerative Treatment Options Available and Cost Overview",
   options: [
     {
@@ -227,7 +221,6 @@ export const treatmentOptionsSection = {
 };
 
 export const whyHeleneSection = {
-  eyebrow: "Why Helene Clinic",
   heading: "Why Helene Clinic",
   cards: [
     {
@@ -287,7 +280,7 @@ export const researchSection = {
 };
 
 export const clinicTourSection = {
-  eyebrow: "Inside the Clinic",
+  
   heading: "See How It Actually Works, Inside Our Tokyo Clinic",
   intro:
     "Rather than just take our word for it, here's a look inside the process itself — from how we collect and culture your own cells to how the infusion is administered, under Japan's regulatory framework for regenerative medicine.",
@@ -297,7 +290,6 @@ export const clinicTourSection = {
 };
 
 export const specialistsSection = {
-  eyebrow: "Our Team",
   heading: "Our Regenerative Medicine Specialists",
   intro:
     "Treatment at Helene Clinic is led and supervised by physicians across regenerative medicine, internal medicine, and orthopedic care — every case is reviewed by a qualified doctor before any treatment plan is proposed.",
@@ -353,7 +345,6 @@ export const locationSection = {
 };
 
 export const videoSection = {
-  eyebrow: "Patient Outcomes",
   heading: "Why Choose us?",
   testimonials: [
     {
@@ -370,7 +361,7 @@ export const videoSection = {
 };
 
 export const comparisonSection = {
-  eyebrow: "The Honest Comparison",
+  
   heading: "What You've Already Tried, vs. What This Offers",
   intro:
     "Before you decide whether this is worth exploring, here's an honest look at how it compares to treatments you've likely already tried in India.",
@@ -409,7 +400,7 @@ export const comparisonSection = {
 };
 
 export const journeySection = {
-  eyebrow: "How It Works",
+  
   heading: "Your Treatment Journey",
   steps: [
     {
