@@ -21,7 +21,7 @@ import {
   HiOutlineClipboardList as HiOutlineMedical,
   HiOutlineSparkles as HiOutlineWellness,
 } from "react-icons/hi";
-import { FaStethoscope, FaHeartbeat, FaPlane } from "react-icons/fa";
+import { FaStethoscope, FaHeartbeat, FaPlane, FaShareAlt, FaMicroscope } from "react-icons/fa";
 
 const iconMap: Record<string, IconType> = {
   ecosystem: HiOutlineBeaker,
@@ -48,6 +48,9 @@ const iconMap: Record<string, IconType> = {
   wellness: HiOutlineWellness,
   onlineReview: HiOutlineDocumentText,
   secondVisit: FaStethoscope,
+  shieldSafety: HiOutlineShieldCheck,
+  structuredJourney: FaShareAlt,
+  microscope: FaMicroscope,
 };
 
 interface CardIconProps {
