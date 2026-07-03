@@ -6,8 +6,8 @@ import { Reveal } from "@/components/ui/Reveal";
 export function CellProcessingSection() {
   return (
     <section className="bg-secondary/50 py-16 sm:py-24" id="cell-processing">
-      <div className="section-container">
-        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
+      <div className="">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <Reveal>
             <img
               src={cellProcessingSection.image}

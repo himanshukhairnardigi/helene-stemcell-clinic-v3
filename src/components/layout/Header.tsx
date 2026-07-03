@@ -27,16 +27,16 @@ export function Header() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full border-b border-transparent bg-background/90 backdrop-blur-md transition-all duration-300",
+        "sticky top-0 z-50 w-full border-b border-transparent bg-white backdrop-blur-md transition-all duration-300",
         scrolled && "border-border shadow-[0_2px_16px_-8px_rgba(15,45,40,0.15)]",
       )}
     >
-      <div className="section-container flex items-center justify-between gap-4 py-4">
+      <div className="gap-4 max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-3">
         <a href="#home" className="flex items-center">
           <img
             src={logoFull}
             alt="Helene Clinic Stemcell Clinic"
-            className="h-9 w-auto sm:h-11"
+            className="max-w-[300px] object-contain h-20"
             width={936}
             height={206}
           />
@@ -58,7 +58,7 @@ export function Header() {
           <a href={nav.suitabilityHref} className="max-w-[160px] text-sm leading-snug text-foreground/70 hover:text-primary">
             {nav.suitabilityLabel}
           </a>
-          <WhatsAppButton label={nav.ctaLabel} className="whitespace-nowrap px-5 py-3 text-sm" />
+          <WhatsAppButton label={nav.ctaLabel} className="whitespace-nowrap !py-2.5 !px-5 !text-sm" />
         </div>
 
         <button

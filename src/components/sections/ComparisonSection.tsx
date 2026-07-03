@@ -53,7 +53,7 @@ export function ComparisonSection() {
             transition={{ duration: 0.35, ease: "easeInOut" }}
             className="mt-10"
           >
-            <div className="hidden overflow-x-auto rounded-2xl border border-border shadow-sm lg:block">
+            <div className="overflow-x-auto rounded-2xl border border-border shadow-sm">
               <table className="w-full min-w-[900px] border-collapse text-left text-sm">
                 <thead>
                   <tr className="bg-secondary">
@@ -91,7 +91,7 @@ export function ComparisonSection() {
               </table>
             </div>
 
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:hidden">
+            {/* <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:hidden">
               {activeTab.rows.map((row, rowIndex) => (
                 <div
                   key={row[0]}
@@ -113,7 +113,7 @@ export function ComparisonSection() {
                   </dl>
                 </div>
               ))}
-            </div>
+            </div> */}
           </motion.div>
         </AnimatePresence>
 
