@@ -41,7 +41,7 @@ export const nav = {
     { label: "About", href: "#about" },
     { label: "Specialists", href: "#specialists" },
     { label: "Steps", href: "#journey" },
-    { label: "Certifications", href: "#why-japan" },
+    { label: "Certifications", href: "#certifiction" },
     { label: "FAQs", href: "#faq" },
   ],
   // suitabilityLabel: "See if you are a suitable candidate",
@@ -312,7 +312,7 @@ export const researchSection = {
 };
 
 export const certificationsSection = {
-  heading: "Certified, Regulated & Trusted",
+  heading: "Certified, Regulated and Trusted",
   items: [
     {
       image: certPrpOsteoarthritis,

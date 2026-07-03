@@ -6,7 +6,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function JapanSection() {
   return (
-    <section className="bg-background py-16 sm:py-24" id="why-japan">
+    <section className="bg-background py-16 sm:py-24">
       <div className="section-container">
         <SectionHeading heading={japanSection.heading} />
 
