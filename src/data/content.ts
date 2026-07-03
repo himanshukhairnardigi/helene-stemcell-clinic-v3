@@ -85,6 +85,21 @@ export const struggleSection = {
   ctaLabel: "Talk to an Expert",
 };
 
+export const scienceSection = {
+  eyebrow: "The Science",
+  heading: "What makes regenerative medicine different?",
+  intro:
+    "Stem cells are being studied because of their potential regenerative and immunomodulatory properties. Researchers are exploring their role in:",
+  points: [
+    "Supporting tissue repair",
+    "Reducing inflammation",
+    "Improving cellular function",
+    "Supporting quality of life in certain conditions",
+  ],
+  noteLabel: "Important Note",
+  note: "Stem cell therapy is not appropriate for everyone, and individual outcomes can vary.",
+};
+
 export const differenceSection = {
   heading: "Why Our β-MSC Diabetes Program Is Different",
   intro: "A more advanced approach designed for patients seeking options beyond routine medication.",
@@ -399,43 +414,30 @@ export const comparisonSection = {
 };
 
 export const journeySection = {
-  
-  heading: "Your Journey with Helene Clinic",
+  heading: "Your Treatment Journey",
   steps: [
     {
       icon: "onlineReview",
-      title: "Share your medical reports on WhatsApp",
-      description: "Submit medical reports for doctor review to assess suitability and treatment approach",
+      title: "Online Medical Review",
+      description: "Submit medical reports for doctor review to assess suitability and treatment indication.",
     },
     {
       icon: "travel",
-      title: "Initial review by medical team",
+      title: "First Visit to Japan",
       description:
-        "In-person consultation, personalized treatment planning, and tissue collection carried out under regulated protocol",
+        "In-person consultation, personalized treatment planning, and tissue collection as required under the approved protocol.",
     },
     {
       icon: "secondVisit",
-      title: "Suitability assessment",
+      title: "Second Visit",
       description:
-        "Stem cell culturing required approximately 30 days following initial collection. After this period, patients return to Japan for the approved treatment administration.",
+        "Stem cell culturing requires approximately 30 days following the initial consultation. After this period, patients return to Japan for therapy administration. Treatment is administered according to the approved medical plan and the doctor's assessment, following licensed clinical protocols.",
     },
     {
       icon: "followup",
-      title: "Treatment discussion and planning",
+      title: "Follow-Up Care",
       description:
-        "Remote follow-up carried out as part of the structured treatment plan under individual medical protocols.",
-    },
-    {
-      icon: "followup",
-      title: "Travel to Japan if appropriate",
-      description:
-        "Remote follow-up carried out as part of the structured treatment plan under individual medical protocols.",
-    },
-    {
-      icon: "followup",
-      title: "Post-treatment follow-up guidance",
-      description:
-        "Remote follow-up carried out as part of the structured treatment plan under individual medical protocols.",
+        "Remote follow-up care provided at scheduled intervals as part of the structured treatment plan.",
     },
   ],
   ctaLabel: "Request Medical Review",
