@@ -22,6 +22,10 @@ import certFemaleHormonal from "@/assets/certification-16.jpg";
 import certFacialSubcutaneous from "@/assets/certification-17.jpg";
 import certErectileDysfunction from "@/assets/certification-18.jpg";
 import certNeurodegenerative from "@/assets/certification-19.jpg";
+import certIso9001 from "@/assets/certification-4.jpg";
+import certQualityAward from "@/assets/certification-1.jpg";
+import certAbrmPartner from "@/assets/certification_2_new.jpg";
+import certGlobalClinicRating from "@/assets/certification-3.jpg";
 
 export const WHATSAPP_NUMBER = "819012345678";
 
@@ -369,6 +373,22 @@ export const certificationsSection = {
     {
       image: certNeurodegenerative,
       title: "License of MSC IV Therapy for Neurodegenerative Disease",
+    },
+    {
+      image: certIso9001,
+      title: "ISO 9001:2015 Certification for Stem Cell Culture Quality Management",
+    },
+    {
+      image: certQualityAward,
+      title: "ESQR Best Quality Leadership Award, Gold Category (2024)",
+    },
+    {
+      image: certAbrmPartner,
+      title: "American Board of Regenerative Medicine — Partner Facility",
+    },
+    {
+      image: certGlobalClinicRating,
+      title: "Global Clinic Rating — International Accredited Clinic",
     },
   ],
   checklist: [
