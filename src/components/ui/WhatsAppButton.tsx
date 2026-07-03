@@ -23,7 +23,7 @@ export function WhatsAppButton({
       className={cn(variant === "solid" ? "btn-whatsapp" : "btn-primary-outline", className)}
       aria-label={label}
     >
-      {variant === "solid" && <FaWhatsapp className="text-xl" aria-hidden="true" />}
+      {variant === "solid" && <FaWhatsapp className="text-xl" size={24} aria-hidden="true" />}
       <span>{label}</span>
     </a>
   );

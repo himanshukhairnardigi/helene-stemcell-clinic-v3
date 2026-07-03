@@ -45,7 +45,7 @@ export function StruggleSection() {
           </div>
         </Reveal>
 
-        <div className="relative mx-auto mt-10 max-w-2xl">
+        <div className="relative mx-auto mt-10">
           <AnimatePresence mode="wait">
             <motion.ul
               key={activeTab.key}

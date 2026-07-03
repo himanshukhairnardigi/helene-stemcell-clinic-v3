@@ -10,7 +10,7 @@ export function Hero() {
 
   return (
     <section id="home" className="relative overflow-hidden bg-gradient-to-b from-secondary/70 via-background to-background py-14 sm:py-20">
-      <div className="section-container grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div>
           <motion.p
             initial={{ opacity: 0, y: 12 }}
@@ -78,7 +78,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="relative mx-auto w-full max-w-md"
+          className="relative mx-auto w-full"
         >
           <div className="absolute -inset-6 -z-10 rounded-[2.5rem] bg-primary/10 blur-2xl" aria-hidden="true" />
           <div className="overflow-hidden rounded-3xl shadow-[0_24px_60px_-20px_rgba(15,45,40,0.35)]">

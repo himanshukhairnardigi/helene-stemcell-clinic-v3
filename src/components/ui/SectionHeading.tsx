@@ -11,7 +11,7 @@ interface SectionHeadingProps {
 
 export function SectionHeading({ eyebrow, heading, intro, align = "center", className }: SectionHeadingProps) {
   return (
-    <Reveal className={cn("mx-auto max-w-3xl", align === "center" ? "text-center" : "text-left", className)}>
+    <Reveal className={cn("mx-auto", align === "center" ? "text-center" : "text-left", className)}>
       {eyebrow && <p className="eyebrow mb-3">{eyebrow}</p>}
       <h2 className="text-3xl font-bold leading-tight text-teal-dark sm:text-4xl">{heading}</h2>
       {intro && <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">{intro}</p>}
