@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/Footer";
 import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
 import { Hero } from "@/components/sections/Hero";
 import { StruggleSection } from "@/components/sections/StruggleSection";
+import { ScienceSection } from "@/components/sections/ScienceSection";
 import { JapanSection } from "@/components/sections/JapanSection";
 import { CellProcessingSection } from "@/components/sections/CellProcessingSection";
 import { ConditionsSection } from "@/components/sections/ConditionsSection";
@@ -26,6 +27,7 @@ function App() {
       <main>
         <Hero />
         <StruggleSection />
+        <ScienceSection />
         <JapanSection />
         <CellProcessingSection />
         <ConditionsSection />
