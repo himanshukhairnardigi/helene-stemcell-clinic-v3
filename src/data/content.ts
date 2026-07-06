@@ -579,9 +579,9 @@ export const faqSection = {
 };
 
 export const finalCta = {
-  heading: "Begin Your Regenerative Therapy Evaluation in Japan",
+  heading: "Wondering whether regenerative medicine in Japan may be suitable for you?",
   subheading:
-    "Speak with a medical expert to understand treatment eligibility, medical evaluation, and international travel planning.",
+    "Share your reports on WhatsApp and speak with our medical team.",
   ctaLabel: "Request Medical Review",
   contactHeading: "Contact",
 };
