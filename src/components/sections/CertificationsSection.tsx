@@ -35,7 +35,7 @@ export function CertificationsSection() {
   const showNextCert = () => setActiveIndex((i) => (i === null ? i : (i + 1) % total));
 
   return (
-    <section className="bg-secondary/50 py-16 sm:py-24">
+    <section className="bg-secondary/50 py-16 sm:py-24" id="certification">
       <div className="section-container">
         <SectionHeading heading={certificationsSection.heading} />
 
