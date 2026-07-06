@@ -9,7 +9,7 @@ export function FaqSection() {
       <div className="section-container">
         <SectionHeading eyebrow={faqSection.eyebrow} heading={faqSection.heading} />
 
-        <Reveal delay={0.1} className="mx-auto mt-10 max-w-2xl rounded-2xl border border-border bg-card px-6 shadow-sm sm:px-8">
+        <Reveal delay={0.1} className="mx-auto mt-10 rounded-2xl border border-border bg-card px-6 shadow-sm sm:px-8">
           <Accordion type="single" collapsible>
             {faqSection.items.map((item, i) => (
               <AccordionItem key={item.question} value={`item-${i}`}>
