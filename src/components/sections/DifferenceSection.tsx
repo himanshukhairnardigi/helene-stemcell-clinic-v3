@@ -29,7 +29,7 @@ export function DifferenceSection() {
 
         <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-3 max-w-4xl mx-auto">
           {differenceSection.support.map((item, i) => (
-            <Reveal key={item.title} delay={0.2 + i * 0.08}>
+        
               <div className="rounded-3xl border border-primary/20 bg-gradient-to-b from-primary/[0.08] to-primary/[0.03] p-6 shadow-sm">
               <div className="flex items-center gap-2">
                 <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/15 gap-2">
@@ -41,7 +41,7 @@ export function DifferenceSection() {
                 </div>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.description}</p>
               </div>
-            </Reveal>
+      
           ))}
         </div>
 

@@ -25,7 +25,7 @@ function TestimonialVideo({
   };
 
   return (
-    <Reveal delay={delay} className="mx-auto w-full max-w-[280px]">
+    <Reveal delay={delay} className="bg-white rounded-[28px] border border-slate-100 shadow-[0_18px_40px_rgba(15,23,42,0.08)] p-5 md:p-6">
       <h3 className="mb-4 text-center text-lg font-semibold text-teal-dark">{title}</h3>
       <div className="relative aspect-[9/16] overflow-hidden rounded-2xl bg-black shadow-[0_20px_50px_-20px_rgba(15,45,40,0.35)]">
         {!videoUrl ? (
@@ -71,7 +71,7 @@ export function VideoSection() {
       <div className="section-container">
         <SectionHeading eyebrow={videoSection.eyebrow} heading={videoSection.heading} />
 
-        <div className="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2">
+        <div className="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2 max-w-4xl mx-auto">
           {videoSection.testimonials.map((testimonial, i) => (
             <TestimonialVideo
               key={testimonial.title}
