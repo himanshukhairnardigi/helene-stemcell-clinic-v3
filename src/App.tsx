@@ -30,7 +30,6 @@ function App() {
         <ScienceSection />
         <JapanSection />
         <CellProcessingSection />
-        <ConditionsSection />
         <VideoSection />
         <TreatmentOptionsSection />
         <DifferenceSection />
