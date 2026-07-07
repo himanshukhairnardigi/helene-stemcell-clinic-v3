@@ -6,7 +6,6 @@ import { StruggleSection } from "@/components/sections/StruggleSection";
 import { ScienceSection } from "@/components/sections/ScienceSection";
 import { JapanSection } from "@/components/sections/JapanSection";
 import { CellProcessingSection } from "@/components/sections/CellProcessingSection";
-import { ConditionsSection } from "@/components/sections/ConditionsSection";
 import { VideoSection } from "@/components/sections/VideoSection";
 import { TreatmentOptionsSection } from "@/components/sections/TreatmentOptionsSection";
 import { DifferenceSection } from "@/components/sections/DifferenceSection";
