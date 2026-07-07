@@ -13,7 +13,7 @@ import { LocationSection } from "@/components/sections/LocationSection";
 import { ResearchSection } from "@/components/sections/ResearchSection";
 import { CertificationsSection } from "@/components/sections/CertificationsSection";
 import { ClinicTourSection } from "@/components/sections/ClinicTourSection";
-import { ComparisonSection } from "@/components/sections/ComparisonSection";
+// import { ComparisonSection } from "@/components/sections/ComparisonSection";
 import { JourneySection } from "@/components/sections/JourneySection";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
@@ -35,7 +35,7 @@ function App() {
         <ResearchSection />
         <CertificationsSection />
         <ClinicTourSection />
-        <ComparisonSection />
+        {/* <ComparisonSection /> */}
         <JourneySection />
         <FaqSection />
         <FinalCtaSection />

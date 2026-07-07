@@ -409,44 +409,44 @@ export const videoSection = {
   ],
 };
 
-export const comparisonSection = {
+// export const comparisonSection = {
   
-  heading: "What You've Already Tried, vs. What This Offers",
-  intro:
-    "Before you decide whether this is worth exploring, here's an honest look at how it compares to treatments you've likely already tried in India.",
-  tabs: [
-    {
-      key: "diabetes",
-      label: "For Type 2 Diabetes",
-      columns: ["Option", "Typical Cost in India", "Frequency", "What It Targets", "Downtime", "Key Limitation"],
-      highlightRow: 4,
-      rows: [
-        ["Oral hypoglycemics (e.g., metformin)", "₹1,500–4,000/month", "Lifelong, daily", "Blood sugar symptom control", "None", "Doesn't address beta-cell decline; needs lifelong adherence"],
-        ["Insulin therapy", "₹3,000–9,000/month", "Lifelong, daily injections", "Blood sugar control", "None", "Doesn't address insulin resistance; daily injection burden"],
-        ["Newer GLP-1 medications", "₹6,000–18,000/month", "Lifelong", "Blood sugar + weight", "Minimal", "High ongoing cost, indefinite use"],
-        ["Bariatric/metabolic surgery", "₹2,50,000–4,50,000 (one-time)", "One-time, major surgery", "Severe insulin resistance", "4–6 weeks", "Invasive, surgical risk, not suitable for everyone"],
-        ["MSC IV therapy (Helene, Japan)", "[clinic to confirm package pricing]", "Single infusion, outpatient", "Underlying inflammation & metabolic environment (per published data)", "~1 day, no surgery", "Emerging therapy; long-term durability still being studied; travel required"],
-      ],
-    },
-    {
-      key: "osteoarthritis",
-      label: "For Osteoarthritis",
-      columns: ["Option", "Typical Cost in India", "Frequency", "What It Targets", "Downtime", "Key Limitation"],
-      highlightRow: 4,
-      rows: [
-        ["NSAIDs / painkillers", "₹1,000–3,000/month", "Lifelong, daily", "Pain symptom relief", "None", "No cartilage repair; long-term GI/kidney risk"],
-        ["Physiotherapy", "₹15,000–30,000/course", "Ongoing, weekly", "Strength & mobility", "None", "Requires continual sessions; doesn't stop progression"],
-        ["Intra-articular injections (PRP/HA)", "₹15,000–40,000/session", "Repeated every 6–12 months", "Local joint lubrication/inflammation", "1–2 days", "Localized & temporary effect"],
-        ["Knee/hip replacement surgery", "₹2,50,000–4,50,000/joint", "One-time, major surgery", "Replaces the joint", "6–12 weeks rehab", "Invasive, surgical/anaesthesia risk, age limitations"],
-        ["MSC IV therapy (Helene, Japan)", "[clinic to confirm package pricing]", "Single infusion, outpatient", "Systemic anti-inflammatory & supportive effect", "~1 day", "Not a substitute for joint replacement in severe structural damage; emerging evidence"],
-      ],
-    },
-  ],
-  costDisclaimer:
-    "Cost figures shown for Indian treatment options are illustrative market ranges and may vary by provider, patient condition, and city. This is not a guarantee of outcome or savings. Please confirm exact pricing and suitability for your case with our patient coordinator.",
-  smallDisclaimer:
-    "No treatment option is universally superior. Suitability depends on individual medical circumstances.",
-};
+//   heading: "What You've Already Tried vs. What This Offers",
+//   intro:
+//     "Before you decide whether this is worth exploring, here's an honest look at how it compares to treatments you've likely already tried in India.",
+//   tabs: [
+//     {
+//       key: "diabetes",
+//       label: "For Type 2 Diabetes",
+//       columns: ["Option", "Typical Cost in India", "Frequency", "What It Targets", "Downtime", "Key Limitation"],
+//       highlightRow: 4,
+//       rows: [
+//         ["Oral hypoglycemics (e.g., metformin)", "₹1,500–4,000/month", "Lifelong, daily", "Blood sugar symptom control", "None", "Doesn't address beta-cell decline; needs lifelong adherence"],
+//         ["Insulin therapy", "₹3,000–9,000/month", "Lifelong, daily injections", "Blood sugar control", "None", "Doesn't address insulin resistance; daily injection burden"],
+//         ["Newer GLP-1 medications", "₹6,000–18,000/month", "Lifelong", "Blood sugar + weight", "Minimal", "High ongoing cost, indefinite use"],
+//         ["Bariatric/metabolic surgery", "₹2,50,000–4,50,000 (one-time)", "One-time, major surgery", "Severe insulin resistance", "4–6 weeks", "Invasive, surgical risk, not suitable for everyone"],
+//         ["MSC IV therapy (Helene, Japan)", "[clinic to confirm package pricing]", "Single infusion, outpatient", "Underlying inflammation & metabolic environment (per published data)", "~1 day, no surgery", "Emerging therapy; long-term durability still being studied; travel required"],
+//       ],
+//     },
+//     {
+//       key: "osteoarthritis",
+//       label: "For Osteoarthritis",
+//       columns: ["Option", "Typical Cost in India", "Frequency", "What It Targets", "Downtime", "Key Limitation"],
+//       highlightRow: 4,
+//       rows: [
+//         ["NSAIDs / painkillers", "₹1,000–3,000/month", "Lifelong, daily", "Pain symptom relief", "None", "No cartilage repair; long-term GI/kidney risk"],
+//         ["Physiotherapy", "₹15,000–30,000/course", "Ongoing, weekly", "Strength & mobility", "None", "Requires continual sessions; doesn't stop progression"],
+//         ["Intra-articular injections (PRP/HA)", "₹15,000–40,000/session", "Repeated every 6–12 months", "Local joint lubrication/inflammation", "1–2 days", "Localized & temporary effect"],
+//         ["Knee/hip replacement surgery", "₹2,50,000–4,50,000/joint", "One-time, major surgery", "Replaces the joint", "6–12 weeks rehab", "Invasive, surgical/anaesthesia risk, age limitations"],
+//         ["MSC IV therapy (Helene, Japan)", "[clinic to confirm package pricing]", "Single infusion, outpatient", "Systemic anti-inflammatory & supportive effect", "~1 day", "Not a substitute for joint replacement in severe structural damage; emerging evidence"],
+//       ],
+//     },
+//   ],
+//   costDisclaimer:
+//     "Cost figures shown for Indian treatment options are illustrative market ranges and may vary by provider, patient condition, and city. This is not a guarantee of outcome or savings. Please confirm exact pricing and suitability for your case with our patient coordinator.",
+//   smallDisclaimer:
+//     "No treatment option is universally superior. Suitability depends on individual medical circumstances.",
+// };
 
 export const journeySection = {
   heading: "Your Journey with Helene Clinic",
