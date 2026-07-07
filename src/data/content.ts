@@ -103,20 +103,6 @@ export const struggleSection = {
   ctaLabel: "Talk to an Expert",
 };
 
-export const scienceSection = {
-  heading: "What makes regenerative medicine different?",
-  intro:
-    "Stem cells are being studied because of their potential regenerative and immunomodulatory properties. Researchers are exploring their role in:",
-  points: [
-    "Supporting tissue repair",
-    "Reducing inflammation",
-    "Improving cellular function",
-    "Supporting quality of life in certain conditions",
-  ],
-  noteLabel: "Important Note",
-  note: "Stem cell therapy is not appropriate for everyone, and individual outcomes can vary.",
-};
-
 export const differenceSection = {
   heading: "Why Our β-MSC Diabetes Program Is Different",
   intro: "A more advanced approach designed for patients seeking options beyond routine medication.",
