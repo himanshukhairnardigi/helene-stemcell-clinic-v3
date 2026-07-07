@@ -171,35 +171,6 @@ export const cellProcessingSection = {
   ctaLabel: "Check If You're Eligible",
 };
 
-export const conditionsSection = {
-  heading: "Conditions Evaluated for Regenerative Therapy",
-  conditions: [
-    {
-      title: "Osteoarthritis (MSC Therapy)",
-      description:
-        "Support joint function and mobility by targeting inflammation and cartilage degeneration, evaluated as a non-surgical option.",
-      image: osteoarthritisImage,
-      imageAlt: "Doctor examining a patient's knee joint affected by osteoarthritis",
-    },
-    {
-      title: "Type 2 Diabetes (T2DM)",
-      description:
-        "Support metabolic balance and insulin sensitivity through regenerative approaches, subject to structured medical evaluation.",
-      image: diabetesImage,
-      imageAlt: "Blood glucose meter used to monitor Type 2 Diabetes",
-    },
-    {
-      title: "Regenerative Aesthetics & Anti-Aging",
-      description:
-        "Support skin quality and tissue renewal using regenerative-grade approaches, evaluated before fillers or surgery.",
-      image: aestheticsImage,
-      imageAlt: "Close-up of facial skin representing regenerative aesthetics and anti-aging care",
-    },
-  ],
-  disclaimer: "Disclaimer: Treatment suitability is determined through medical review; individual responses may vary.",
-  ctaLabel: "Check If You Are Eligible",
-};
-
 export const treatmentOptionsSection = {
   heading: "Regenerative Treatment Options Available and Cost Overview",
   options: [
