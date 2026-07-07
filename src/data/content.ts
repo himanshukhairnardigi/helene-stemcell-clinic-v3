@@ -210,32 +210,6 @@ export const japanSection = {
   ctaLabel: "Check If You're Eligible",
 };
 
-export const whyHeleneSection = {
-  heading: "Why Helene Clinic",
-  cards: [
-    {
-      icon: "experience",
-      title: "More than a decade of regenerative medicine experience",
-    },
-    {
-      icon: "administrations",
-      title: "Thousands of stem cell administrations performed",
-    },
-    {
-      icon: "protocols",
-      title: "Physician-led treatment protocols",
-    },
-    {
-      icon: "support",
-      title: "International patient support",
-    },
-    {
-      icon: "safety",
-      title: "Focus on patient safety and medical evaluation",
-    },
-  ],
-};
-
 export const researchSection = {
   heading: "Research that informs our approach",
   safetyStudy: {

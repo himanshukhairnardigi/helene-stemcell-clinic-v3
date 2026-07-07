@@ -8,7 +8,6 @@ import { CellProcessingSection } from "@/components/sections/CellProcessingSecti
 import { VideoSection } from "@/components/sections/VideoSection";
 import { TreatmentOptionsSection } from "@/components/sections/TreatmentOptionsSection";
 import { DifferenceSection } from "@/components/sections/DifferenceSection";
-import { WhyHeleneSection } from "@/components/sections/WhyHeleneSection";
 import { SpecialistsSection } from "@/components/sections/SpecialistsSection";
 import { LocationSection } from "@/components/sections/LocationSection";
 import { ResearchSection } from "@/components/sections/ResearchSection";
@@ -31,7 +30,6 @@ function App() {
         <VideoSection />
         <TreatmentOptionsSection />
         <DifferenceSection />
-        <WhyHeleneSection />
         <SpecialistsSection />
         <LocationSection />
         <ResearchSection />
